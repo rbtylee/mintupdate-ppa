@@ -1,0 +1,89 @@
+.\"	Title : mintupdate
+.\"	Author : gm10
+.\"
+.\" First parameter, NAME, should be all caps
+.\" other parameters are allowed: see man(7), man(1)
+.TH MINTUPDATE 8 "1 December 2019" MINTUPDATE
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+mintupdate \- Update and Kernel Manager
+
+.SH SYNOPSIS
+\fBmintupdate\fR [options]
+
+.SH DESCRIPTION
+\fBmintupdate\fR is a graphical solution to managing software updates available
+via the apt package management system. It is designed to run at session
+startup.
+.PP
+In \fBmintupdate\fR's preferences you can configure the update check schedule,
+enable automatic system snapshots before updates (requires timeshift to be
+installed and configured) as well as automated maintenance and update
+functionality.
+.PP
+\fBmintupdate\fR ensures you are using the recommended kernel for your system,
+and via the Tools menu you can access the advanced Kernel Manager
+(\fBkernel-manager(8)\fR) allowing installation of non-default kernels or
+removal of existing ones. See the Expert options in preferences to make
+additional kernel choices available.
+.PP
+\fBmintupdate\fR also facilitates installation of Linux Mint point releases as
+they become available.
+.PP
+See \fBmintupdate-cli(8)\fR for a command line version of mintupdate.
+.PP
+
+.SH COMMANDS
+\fBmintupdate\fR is controlled and configured via the graphical user interface
+but also exposes a command line interface for accessing some functionality.
+All commands except `show` and `exit` will be ignored if the application is
+not running, instead it will be started as if no command had been supplied.
+.TP
+\fBshow\fR
+Show the application window. This is the default if no command is supplied.
+.TP
+\fBhide\fR
+Hide the application window.
+.TP
+\fBrefresh\fR
+Refresh the list of available updates.
+.TP
+\fBshow-kernels\fR
+Show the Kernel Manager window.
+.TP
+\fBshow-history\fR
+Show the History of Updates window.
+.TP
+\fBshow-preferences\fR
+Show the Preferences window.
+.TP
+\fBshow-log\fR
+Show the Log View window.
+.TP
+\fBrestart\fR
+Restart the application.
+.TP
+\fBexit\fR
+Exit the application.
+.PP
+
+.SH OPTIONS
+.TP
+\fB-h\fR, \fB--help\fR
+Show a short usage summary.
+.TP
+\fB-v\fR, \fB--version\fR
+Display the current version.
+.PP
+
+.SH NOTES
+\fBmintupdate\fR's Edit menu entries give acccess to \fBtimeshift-gtk(8)\fR
+(\fISystem Snapshots\fR), \fBsoftware-sources(8)\fR (\fISoftware Sources\fR),
+and \fBmint-release-upgrade(8)\fR (\fIUpgrade to {point release}\fR).
+
+\fBmintupdate\fR also integrates optional database updates to \fBmintinstall(8)\fR.
+
+.SH SEE ALSO
+\fBmintupdate-cli(8)\fR, \fBkernel-manager(8)\fR, \fBmint-sources(1)\fR, \fBtimeshift-gtk\fR, \fBmintinstall(8)\fR

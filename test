@@ -1,0 +1,14 @@
+#!/bin/sh
+
+sudo rm -rf /usr/lib/linuxmint/mintUpdate
+sudo rm -rf /usr/share/linuxmint/mintupdate
+sudo cp -R etc /
+sudo cp -R usr /
+sudo cp -R systemd/system /lib/systemd/
+sudo cp -R systemd/user /usr/lib/systemd/
+sudo systemctl daemon-reload
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+sudo cp debian/mintupdate.bash-completion /usr/share/bash-completion/completions/mintupdate
+sudo gtk-update-icon-cache -q /usr/share/icons/hicolor
+
+mintupdate restart

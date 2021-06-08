@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Name=Kernel Manager
+Name[de]=Systemkernverwaltung
+Name[fr]=Gestionnaire de noyaux
+Name[fr_CA]=Gestionnaire de noyaux
+Name[hr]=Upravitelj kernela
+Name[nl]=Systeemkernbeheer
+Comment=Install and remove kernels
+Comment[de]=Installieren und Entfernen von Systemkernen
+Comment[hr]=Instaliraj i ukloni kernele
+Comment[id]=Pasang dan hapus kernel
+Comment[nl]=Systeemkernen installeren en verwijderen
+Exec=kernel-manager
+Icon=kernel-manager
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+StartupNotify=false
+StartupWMClass=Kernel-manager.py

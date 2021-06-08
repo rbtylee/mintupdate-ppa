@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="snapshots">
+
+  <info>
+    <link type="guide" xref="index#concepts"/>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kohdatessasi vakavia regressioita, palauta viimeisin järjestelmävedos.</desc>
+  </info>
+
+    <title>Järjestelmävedokset</title>
+
+    <p>Timeshift, järjestelmävedos työkalu on käytettävissä kaikissa Linux Mint -versioissa.</p>
+
+    <p>Sitä voidaan käyttää vedosten manuaaliseen luomiseen, mutta myös automaattisiin järjestelmävedoksiin.</p>
+
+    <p>Linux Mint suosittelee päivittäisien ja käynnistyksen yhteydessä tehtävien vedosten automatisointia.</p>
+
+    <p>Jos päivitys, virhe tai haitallinen ohjelma rikkoo jotain tietokoneeltasi, voit palauttaa käyttöjärjestelmän mistä tahansa vedoksesta, jolloin perut ongelman kuin sitä ei olisi koskaan ollut.</p>
+
+    <note><p>Järjestelmävedokset kattavat vain itse käyttöjärjestelmän itsensä. Ne eivät sisällä tai vaikuta henkilökohtaiseen dataasi.</p></note>
+
+</page>

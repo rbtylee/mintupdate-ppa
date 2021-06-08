@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="index">
+
+  <info>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Administrador de actualizaciones</title>
+
+  <p>El  Administrador de actualizaciones proporciona actualizaciones de software y de seguridad para el sistema operativo.</p>
+
+  <p>Las actualizaciones son importantes porque mantienen seguro el equipo, eliminan errores y pueden añadir nuevas funcionalidades al sistema operativo.</p>
+
+  <p>Desafortunadamente, a veces también introducen nuevos problemas llamados 'regresiones', que pueden estropear cosas que antes funcionaban bien.</p>
+
+  <p>Para mantener su equipo seguro y en buen funcionamiento, se recomienda aplicar todas las actualizaciones disponibles y configurar las instantáneas del sistema, para poder restaurar el sistema en caso de fallo.</p>
+
+  <section id="concepts">
+    <title>Conceptos básicos</title>
+
+    <p>Esta sección explica los conceptos básicos acerca de las actualizaciones de software.</p>
+  </section>
+
+  <section id="kernel">
+    <title>Actualizaciones del kernel</title>
+
+    <p>Esta sección explica las actualizaciones del kernel.</p>
+  </section>
+
+  <section id="advanced">
+    <title>Técnicas avanzadas</title>
+
+    <p>Esta sección explica las técnicas avanzadas.</p>
+  </section>
+</page>

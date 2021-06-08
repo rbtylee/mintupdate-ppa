@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# This binary exists solely for compatibility reasons for users of Linux Mint's
+# mintupdate who may have modified autostart files pointing to this.
+mintupdate hide &

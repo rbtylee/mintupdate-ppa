@@ -1,0 +1,87 @@
+.\"	Title : mintupdate-cli
+.\"	Author : gm10
+.\"
+.\" First parameter, NAME, should be all caps
+.\" other parameters are allowed: see man(7), man(1)
+.TH MINTUPDATE-CLI 8 "9 December 2019" MINTUPDATE
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+mintupdate-cli \- Update Manager command line interface.
+
+.SH SYNOPSIS
+\fBmintupdate-cli\fR [options] {list | upgrade}
+
+.SH DESCRIPTION
+\fBmintupdate-cli\fR is the command line interface to mintupdate.
+.PP
+Unless the \fB-h\fR, or \fB--help\fR option is given, one of the commands below must be present:
+.PP
+\fBlist\fR
+.RS 4
+List available updates.
+.RE
+.PP
+\fBupgrade\fR
+.RS 4
+Apply available updates.
+.RE
+
+.SH OPTIONS
+mintupdate-cli accepts the following options:
+.TP
+\fB-h\fR, \fB--help\fR
+Show a help message and exit.
+.TP
+\fB-k\fR, \fB--only-kernel\fR
+Only apply kernel updates.
+.TP
+\fB-s\fR, \fB--only-security\fR
+Only apply security updates.
+.TP
+\fB-m\fR, \fB--mainline\fR
+Enable mainline kernel upgrades. If the current kernel is a so-called mainline
+kernel, this allows it to be upgraded. If the installed series has reached
+end-of-life, then the highest available released mainline kernel series is
+installed.
+.TP
+\fB-i IGNORE\fR, \fB--ignore IGNORE\fR
+List of updates to ignore (comma-separated list of source package names).
+
+You can also ignore updates by adding them to /etc/mintupdate.blacklist,
+one source package per line.
+
+To ignore a specific version, use the format package=version.
+.TP
+\fB-r\fR, \fB--refresh-cache\fR
+Refresh the APT cache first.
+.TP
+\fB-d\fR, \fB--dry-run\fR
+Simulation mode, don't upgrade anything.
+.TP
+\fB-y\fR, \fB--yes\fR
+Automatically answer yes to all questions and always install new configuration
+files (unless you also use the --keep-configuration option).
+.TP
+\fB--quiet\fR
+Produce only minimal output. Implies --yes.
+.TP
+\fB--install-recommends\fR
+Install recommended packages regardless of system defaults (use with caution).
+
+System defaults on Linux Mint are not to install recommended packages.
+.TP
+\fB-t\fR, \fB--create-snapshot\fR
+Create system snapshot with Timeshift before installing updates. This requires
+Timeshift to be installed and set up correctly to work. Updates won't be
+installed if the snapshot cannot be created.
+.TP
+\fB--keep-configuration\fR
+Always keep local changes in configuration files (use with caution).
+.TP
+\fB-v\fR, \fB--version\fR
+Display the current version.
+
+.SH SEE ALSO
+\fBmintupdate(8)\fR, \fBtimeshift-gtk\fR

@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+
+import argparse
+import os
+import subprocess
+
+import psutil
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(prog="kernel-manager", description="Kernel Manager")
+    parser.add_argument("-v", "--version", action="version", version="__DEB_VERSION__")
+    args = parser.parse_args()
+
+    kernel_manager_running = None
+    mintupdate_running = False
+    try:
+        _pid = os.getpid()
+        _uid = os.getuid()
+        for proc in psutil.process_iter():
+            if proc.pid == _pid or proc.uids().real != _uid:
+                # ignore processes from other users and this process
+                continue
+            elif proc.name() == "mintUpdate":
+                mintupdate_running = True
+            elif proc.name() == "kernel-manager":
+                kernel_manager_running = proc.pid
+                break
+    except:
+        pass
+
+    if kernel_manager_running:
+        print(f"Kernel Manager is already running, pid: {kernel_manager_running}")
+    elif mintupdate_running:
+        # if mintupdate is running, show its integrated Kernel Manager
+        subprocess.Popen(["/usr/bin/mintupdate", "show-kernels"])
+    else:
+        # otherwise run standalone Kernel Manager
+        subprocess.Popen(["/usr/lib/linuxmint/mintUpdate/kernel-manager.py"])

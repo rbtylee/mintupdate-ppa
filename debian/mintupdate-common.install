@@ -1,0 +1,13 @@
+# code
+usr/lib/linuxmint/mintUpdate/common/
+usr/lib/linuxmint/mintUpdate/root_functions.py
+
+# settings and policy
+usr/share/glib-2.0/
+usr/share/polkit-1/actions/in.gm10.mintupdate.policy
+
+# documentation
+doc/help usr/share/
+
+# translations
+usr/share/locale/

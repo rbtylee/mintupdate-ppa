@@ -1,0 +1,26 @@
+#!/bin/sh
+DOMAIN=mintupdate
+AUTHOR=gm10
+EMAIL=gm10@quantentunnel.de
+
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/history.ui
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/kernels.ui
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/main.ui
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/preferences.ui
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/preferences.kernels.ui
+intltool-extract --type=gettext/glade usr/share/linuxmint/mintupdate/shortcuts.ui
+
+xml2po -o mintupdate.pot -m mallard doc/help/C/mintupdate/*.page
+
+xgettext --language=Python --from-code=utf-8 --keyword=_ --keyword=N_ -cTRANSLATORS \
+    --copyright-holder="${AUTHOR} <${EMAIL}>" --msgid-bugs-address=${EMAIL} \
+    --package-name=${DOMAIN} --package-version=$(dpkg-parsechangelog -S version 2>/dev/null) \
+    --output=${DOMAIN}.pot --join-existing \
+    usr/lib/linuxmint/mintUpdate/*.py \
+    usr/lib/linuxmint/mintUpdate/common/*.py \
+    usr/lib/linuxmint/mintUpdate/main/*.py \
+    usr/lib/linuxmint/mintUpdate/kernel/*.py \
+    generate_desktop_files \
+    usr/share/linuxmint/mintupdate/*.ui.h
+
+rm -f usr/share/linuxmint/mintupdate/*.ui.h

@@ -1,0 +1,43 @@
+#
+# Bash completion file for the /usr/sbin/apt script.
+#
+
+_mintupdate()
+{
+    _init_completion || return
+
+    # see if the user selected a command already
+    local COMMANDS=(
+        "--help"
+        "--version"
+        "show"
+        "hide"
+        "show-kernels"
+        "show-history"
+        "show-preferences"
+        "show-log"
+        "refresh"
+        "restart"
+        "exit"
+        )
+
+    local command i
+    for (( i=0; i < ${#words[@]}-1; i++ )); do
+        if [[ ${COMMANDS[@]} =~ ${words[i]} ]]; then
+            command=${words[i]}
+            break
+        fi
+    done
+
+    # command and command argument completion
+    case $command in
+
+        # Complete the command itself
+        "")
+            COMPREPLY=( $( compgen -W '${COMMANDS[@]}' -- "$cur" ) )
+            return 0
+            ;;
+    esac
+
+} &&
+complete -F _mintupdate mintupdate

@@ -1,0 +1,1860 @@
+# Korean translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gm10-linuxmint-tools\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-01-08 11:56+0100\n"
+"PO-Revision-Date: 2019-12-09 18:58+0000\n"
+"Last-Translator: gm10 <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: doc/help/C/mintupdate/updates.page:10(name)
+#: doc/help/C/mintupdate/snapshots.page:10(name)
+#: doc/help/C/mintupdate/regressions.page:10(name)
+#: doc/help/C/mintupdate/mintupdate-cli.page:10(name)
+#: doc/help/C/mintupdate/kernels.page:10(name)
+#: doc/help/C/mintupdate/index.page:9(name)
+msgid "Linux Mint"
+msgstr "리눅스 민트"
+
+#: doc/help/C/mintupdate/updates.page:11(email)
+#: doc/help/C/mintupdate/snapshots.page:11(email)
+#: doc/help/C/mintupdate/regressions.page:11(email)
+#: doc/help/C/mintupdate/mintupdate-cli.page:11(email)
+#: doc/help/C/mintupdate/kernels.page:11(email)
+#: doc/help/C/mintupdate/index.page:10(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: doc/help/C/mintupdate/updates.page:16(desc)
+msgid "There are different types of updates"
+msgstr "여러 형식의 업데이트들이 있습니다"
+
+#: doc/help/C/mintupdate/updates.page:19(title)
+msgid "The different types of updates"
+msgstr "여러 형식의 업데이트들"
+
+#: doc/help/C/mintupdate/updates.page:21(p)
+msgid "There are different types of updates:"
+msgstr "여러 형식의 업데이트들이 있습니다:"
+
+#: doc/help/C/mintupdate/updates.page:24(p)
+msgid ""
+"'Software updates' are updates which fix bugs (or also sometimes which bring "
+"new features)."
+msgstr "'소프트웨어 업데이트'는 버그를 수정하는 업데이트입니다 (또는 새 기능을 가져오기도 합니다)."
+
+#: doc/help/C/mintupdate/updates.page:25(p)
+msgid "'Security updates' are updates which patch vulnerabilities."
+msgstr "'보안 업데이트'는 취약점을 보완하는 업데이트입니다."
+
+#: doc/help/C/mintupdate/updates.page:26(p)
+msgid "'Kernel updates' represent the installation of a newer kernel."
+msgstr "'커널 업데이트'는 새 커널 설치를 말합니다."
+
+#: doc/help/C/mintupdate/updates.page:29(p)
+msgid ""
+"Security is very important but also very technical. Vulnerabilities don't "
+"always affect your computer and can be quite difficult to understand. Most "
+"people don't understand them at all and their personal computers are rarely "
+"at risk. That said, a security breach can have dire consequences, so it is "
+"always recommended to take them seriously."
+msgstr ""
+"보안은 매우 중요하며, 동시에 이는 기술적인 의미에서 매우 어려운 문제 입니다. 여러분 컴퓨터의 취약점은 사실 꽤 이해하기 어렵기도 "
+"한데다 항상 여러분의 컴퓨터에 영향을 미치는 것도 아니니 말입니다. 대부분의 사람들은 그들의 컴퓨터가 가지고 있는 취약점들과 그에 따른 "
+"위험요소들을 전혀 이해하지 못하지만, 그렇다고 그들의 컴퓨터가 실질적인 보안위기에 처해있는 경우는 드뭅니다. 그럼에도 불구하고 여전히 "
+"보안위반은 여러 비참한 결과들을 자아내기도 하며, 따라서 이 보안 요소들을 중히 여기는것이 항상 권장되는 것 입니다."
+
+#: doc/help/C/mintupdate/updates.page:31(p)
+msgid ""
+"Software updates aren't as important. They bring bug fixes or improvements "
+"which are not related to security."
+msgstr "보안 측면에서는 소프트웨어 업데이트가 크게 중요하지는 않습니다. 보안과 관련이 없는 버그 수정이나 기능 개선을 합니다."
+
+#: doc/help/C/mintupdate/updates.page:33(p)
+#: doc/help/C/mintupdate/kernels.page:23(p)
+msgid ""
+"In Linux Mint, kernel updates bring both security patches and bug fixes (and "
+"sometimes even new features), and they impact critical parts of the "
+"operating system. This makes kernel updates important from a security point "
+"of view, but also prone to regressions which can be hard to fix for novice "
+"users."
+msgstr ""
+"리눅스 민트의 경우, 커널 업데이트는 보안 패치와 버그 수정을 합니다 (그리고 가끔 새 기능 추가도 하구요), 그리고 운영 체제의 핵심 "
+"부분에 영향을 줍니다. 그래서 보안이라는 관점에서 커널 업데이트는 중요합니다, 그러나 초보 사용자에게는 고치기 어려운 퇴행이 발생하기도 "
+"합니다."
+
+#: doc/help/C/mintupdate/snapshots.page:16(desc)
+msgid ""
+"When faced with a serious regression, restore the latest system snapshot."
+msgstr "심한 기능 퇴행을 직면하게 되는 경우엔, 최신 시스템 스냅샷으로 복원하세요."
+
+#: doc/help/C/mintupdate/snapshots.page:19(title)
+msgid "System snapshots"
+msgstr "시스템 스냅샷"
+
+#: doc/help/C/mintupdate/snapshots.page:21(p)
+msgid ""
+"Timeshift, the system snapshot utility, is available in all versions of "
+"Linux Mint."
+msgstr "타임시프트는, 시스템 스냅샷 유틸리티, 모든 버전의 리눅스 민트에서 사용하실 수 있습니다."
+
+#: doc/help/C/mintupdate/snapshots.page:23(p)
+msgid ""
+"It can be used to create snapshots manually but also to automate system "
+"snapshots."
+msgstr "타임시프트로 시스템 스냅샷을 자동이나 수동으로 모두 만들 수 있습니다."
+
+#: doc/help/C/mintupdate/snapshots.page:25(p)
+msgid "Linux Mint recommends the automation of daily and boot snapshots."
+msgstr "리눅스 민트팀은 매일 그리고 부팅 스냅샷을 자동으로 만드시길 권해드립니다."
+
+#: doc/help/C/mintupdate/snapshots.page:27(p)
+msgid ""
+"If an update, a mistake, a bug or a malicious program breaks something on "
+"your computer, you can restore the operating system from any snapshot, thus "
+"cancelling the problem as if it never happened."
+msgstr ""
+"업데이트, 실수, 버그 또는 기타 여러 가지 이유로 컴퓨터에 이상이 생기더라도, 어떤 스냅샷으로든 컴퓨터를 마치 아무 일도 없던 것처럼 "
+"복구하실 수 있습니다."
+
+#: doc/help/C/mintupdate/snapshots.page:29(p)
+msgid ""
+"System snapshots only cover the operating system itself. They do not include "
+"or affect your personal data."
+msgstr "시스템 스냅샷은 오직 여러분의 운영 체제 자체만 복구합니다. 여러분의 개인 데이터는 포함하지 않습니다."
+
+#: doc/help/C/mintupdate/regressions.page:16(desc)
+msgid "When an update breaks something, it's called a \"regression\"."
+msgstr ""
+"업데이트가 모종의 이유로 시스템이나 기기에 문제를 일으킬 경우, 이는 \"퇴행\"이라고 불립니다.  일반적인 의미의 \"퇴행\" 과는 "
+"달리, 이 경우엔 일반적으로 이미 발생되어 해결된 오류나 문제가 업데이트로 인해 재발된 경우를 일컫습니다."
+
+#: doc/help/C/mintupdate/regressions.page:19(title)
+msgid "Software regressions"
+msgstr "소프트웨어 퇴행"
+
+#: doc/help/C/mintupdate/regressions.page:21(p)
+msgid ""
+"Updates keep your computer safe, eliminate bugs and even sometimes add new "
+"features to your operating system."
+msgstr ""
+"업데이트는 여러분의 컴퓨터가 항상 안전한 상태에서 작동하도록 돕습니다. 그 외에도 자잘한 오류를 잡는것은 물론 때때로 여러분의 운영체제에 "
+"새 기능을 추가 하기도 하죠."
+
+#: doc/help/C/mintupdate/regressions.page:23(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions'."
+msgstr "불행히도, 이 업데이트들은 \"퇴행\"이라고 불리는 새 문제들을 만들어 내기도 합니다."
+
+#: doc/help/C/mintupdate/regressions.page:25(p)
+msgid ""
+"Regressions are very common in the software industry. They're inherent to "
+"software development. Code changes can cause regressions. No matter how "
+"skilled developers are, they can't always predict every possible situation "
+"or test on every possible hardware specification."
+msgstr ""
+"이 \"퇴행\"에 관련된 문제는 사실 소프트웨어 개발에 있어 심심하면 일어나는 문제입니다.  소프트웨어 개발에서 \"퇴행\" 문제와 "
+"맞닥트리는것은 사실 필연이라고도 할 수 있죠. 개발자들은 업데이트를 하면서 코드를 프로그램들에서 빼거나 추가하는데, 개발자들의 능력이 "
+"얼마나 높고 낮은가에 상관없이 이 과정에서 코드를 변경함으로서 일어날 수 있는 부가적인 문제들을 항상 개발자들이 모든 기기에서 "
+"테스트하거나 시뮬레이팅 할 수 없기에 이러한 문제가 일어나는 것 입니다."
+
+#: doc/help/C/mintupdate/regressions.page:27(p)
+msgid ""
+"When a regression happens, it breaks something which worked well before."
+msgstr ""
+"이 \"퇴행\"이 발생하면, 원래는 작동이 잘 되던 프로그램이나 기능 따위나 이미 이전에 수행한 업데이트로 해결된 문제가 도로 재발하곤 "
+"합니다."
+
+#: doc/help/C/mintupdate/regressions.page:29(p)
+msgid "Sometimes it doesn't really matter, but sometimes it matters a lot."
+msgstr ""
+"가끔은 이 \"회귀\" 문제가 사실 별 대수롭지 않은 자잘한 오류들을 불러올 때도 있고, 아예 시스템을 멈취버릴 정도로 치영적인 오류를 "
+"야기하기도 합니다."
+
+#: doc/help/C/mintupdate/regressions.page:31(p)
+msgid ""
+"It depends on what part of the operating system is affected and whether or "
+"not you're able to work around it or to fix it."
+msgstr ""
+"이는 순전히 여러분의 운영체제의 어느 부분이 영향을 받는지와 여러분이 터미널을 열고 IRC나 포럼에 자문하거나 하는것으로 단순히 고쳐질 "
+"수 있는지 없는지의 여부에 달려 있습니다."
+
+#: doc/help/C/mintupdate/regressions.page:33(p)
+msgid ""
+"Say, the PDF reader is no longer able to print. Well, it's annoying, but "
+"it's not as problematic as if your network connection stopped working or if "
+"you were suddenly unable to boot the computer or to login."
+msgstr ""
+"예, PDF 리더는 더 이상 인쇄할 수 없습니다. 글쎄요, 귀찮은 일이긴 하지만… 네트워크 연결이 끊어 지거나 갑자기 컴퓨터를 부팅할 수 "
+"없다거나  로그인할 수 없는 것처럼 문제가 되지는 않습니다."
+
+#: doc/help/C/mintupdate/regressions.page:35(p)
+msgid ""
+"In the latter case, it can be very problematic if you're not experienced "
+"with Linux and you don't know how to troubleshoot."
+msgstr "후자의 경우라면, 리눅스에 익숙하지 않고 문제를 해결하는 방법을 모르시는 분들에겐 문제가 될 수 있습니다."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:16(desc)
+msgid "Updating from the command line"
+msgstr "명령문으로 업데이트하기"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:19(title)
+msgid "Using mintupdate-cli"
+msgstr "mintupdate-cli 사용하기"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:21(p)
+msgid ""
+"The Update Manager provides a command line utility called \"mintupdate-cli\"."
+msgstr "업데이트 매니저는 \"mintupdate-cli\" 민트 업데이트 클라이라고 불리는 명령문 유틸리티를 제공합니다."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:23(p)
+msgid ""
+"If you are experienced with Linux, you can use this tool in your scripts or "
+"your cron jobs to automate the installation of software updates."
+msgstr "리눅스 사용 경험이 있으시면, 스크립트 또는 cron 작업을 이용해서 소프트웨어 업데이트 설치를 자동화해보세요."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:27(title)
+msgid "Listing updates"
+msgstr "업데이트 목록 나열하기"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:29(p)
+msgid "You can use the \"list\" command to list updates:"
+msgstr "\"list\" 명령을 통해서 목록 업데이트를 할 수 있습니다:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:31(screen)
+#, no-wrap
+msgid "mintupdate-cli list"
+msgstr "mintupdate-cli 목록"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:33(p)
+msgid "You can use -s to only show the security updates."
+msgstr "옵션 -s는 보안 업데이트 항목을 표시합니다,"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:35(p)
+msgid "You can use -k to only show the kernel updates."
+msgstr "옵션 -k는 커널 업데이트 항목을 표시합니다"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:37(p)
+msgid "For instance, the following command lists all security updates:"
+msgstr "예를 들면, 다음 명령어는 모든 보안 업데이트 항목들을 표시합니다:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:39(screen)
+#, no-wrap
+msgid "mintupdate-cli list -s"
+msgstr "mintupdate-cli list -s"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:45(title)
+msgid "Applying updates"
+msgstr "업데이트 적용하기"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:47(p)
+msgid ""
+"You can use the \"upgrade\" command to apply updates, using the same options."
+msgstr "업데이트 적용에는 \"upgrade\" 명령어를 사용하며, 옵션은 같습니다."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:49(p)
+msgid "For instance, the following command applies kernel updates:"
+msgstr "예를 들면, 다음 명령어는 모든 커널 업데이트 항목들을 표시합니다:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:51(screen)
+#, no-wrap
+msgid "sudo mintupdate-cli upgrade -r -k"
+msgstr "sudo mintupdate-cli upgrade -r -k"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:53(p)
+msgid "Note the -r argument, which was added to refresh the cache."
+msgstr "-r 옵션은, 캐시를 새로 고치기 위해 더해졌습니다."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:55(p)
+msgid ""
+"For more information on mintupdate-cli and a complete list of arguments, "
+"type:"
+msgstr "mintupdate-cli에  관한 더 많은 정보 및 모든 인수 목록을 보시려면 다음 명령어를 입력하세요:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:57(screen)
+#, no-wrap
+msgid "mintupdate-cli -h"
+msgstr "mintupdate-cli -h"
+
+#: doc/help/C/mintupdate/kernels.page:16(desc)
+msgid "Kernels and kernel updates"
+msgstr "커널과 커널 업데이트"
+
+#: doc/help/C/mintupdate/kernels.page:19(title)
+#: doc/help/C/mintupdate/index.page:35(title)
+msgid "Kernel updates"
+msgstr "커널 업데이트"
+
+#: doc/help/C/mintupdate/kernels.page:21(p)
+msgid ""
+"The kernel is the central part of the operating system. Among other things, "
+"it is responsible for hardware support."
+msgstr "커널은 운영체제의 핵심 부분입니다. 다른 무엇 보다, 하드웨어 지원을 담당합니다."
+
+#: doc/help/C/mintupdate/kernels.page:25(p)
+msgid ""
+"From a security point of view, it is important to apply kernel updates."
+msgstr "보안 측면에서 볼 때, 커널 업데이트의 적용은 매우 중요합니다."
+
+#: doc/help/C/mintupdate/kernels.page:27(p)
+msgid ""
+"A kernel regression could however affect your ability to connect to the "
+"Internet, to start your desktop environment or even to boot the operating "
+"system."
+msgstr "하지만 커널 퇴행은 인터넷 연결이나, 데스크톱 환경 실행 또는 운영 체제 부팅에도 영향을 끼칠 수 있습니다."
+
+#: doc/help/C/mintupdate/kernels.page:29(p)
+msgid ""
+"For this reason it is important to be cautious when applying kernel updates "
+"and to know how to revert them when something goes wrong."
+msgstr "이런 이유로 커널 업데이트를 적용할 땐 주의를 필요로 하며 일이 잘못돼도 다시 되돌리는 방법도 알고 있어야 합니다."
+
+#: doc/help/C/mintupdate/kernels.page:32(title)
+msgid "Multiple kernels can be installed"
+msgstr "여러 개의 커널도 설치할 수 있습니다"
+
+#: doc/help/C/mintupdate/kernels.page:34(p)
+msgid ""
+"When you apply an update, you replace the old version of the software with "
+"the new version."
+msgstr "업데이트를 적용하면, 옛 버전의 소프트웨어를 새 버전으로 바꾸게 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:36(p)
+msgid ""
+"Things are different when it comes to kernels. When you apply a \"kernel "
+"update\", you don't actually update the kernel, you install a new kernel "
+"alongside the existing one."
+msgstr ""
+"커널에서는 문제가 다릅니다. \"커널 업데이트\"를 적용해도, 실제로 커널이 업데이트되지 않고, 새 커널을 기존 커널에 더해서 설치하게 "
+"됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:38(p)
+msgid ""
+"Every time you apply a kernel update, you install a new kernel on the "
+"system, without removing the old ones."
+msgstr "매번 커널을 업데이트할 때마다, 옛 커널을 지우지 않고, 새 커널을 시스템에 설치하게 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:40(p)
+msgid "At boot time, the computer selects the most recent one."
+msgstr "부팅할 때, 컴퓨터가 가장 새 버전을 선택합니다."
+
+#: doc/help/C/mintupdate/kernels.page:45(title)
+msgid "Identifying the current kernel"
+msgstr "현재 커널 확인하기"
+
+#: doc/help/C/mintupdate/kernels.page:47(p)
+msgid ""
+"If you want to know which kernel you are currently using, open a terminal "
+"and type:"
+msgstr "지금 사용 중인 커널이 궁금하시면, 터미널을 열고 이 명령문을 입력하세요:"
+
+#: doc/help/C/mintupdate/kernels.page:49(screen)
+#, no-wrap
+msgid "uname -a"
+msgstr "uname -a"
+
+#: doc/help/C/mintupdate/kernels.page:54(title)
+msgid "Installing and removing kernels"
+msgstr "커널 설치 및 제거하기"
+
+#: doc/help/C/mintupdate/kernels.page:56(p)
+msgid "You can install and remove kernels from the Update Manager."
+msgstr "여러분은 업데이트 매니저에서 커널을 설치하고 지울 수 있습니다."
+
+#: doc/help/C/mintupdate/kernels.page:58(p)
+msgid "Select \"Tools\" -&gt; \"Kernel Manager\" in the menu."
+msgstr ""
+
+#: doc/help/C/mintupdate/kernels.page:60(p)
+msgid ""
+"You cannot remove the kernel you are currently using. To remove it, you need "
+"to reboot and select a different kernel to boot with."
+msgstr ""
+"지금 사용하고 있는 커널은 지울 수 없습니다. 사용 중인 커널을 제거하려면, 다시 시작해서 다른 커널로 부팅해서 하면 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:65(title)
+msgid "Selecting a kernel"
+msgstr "커널 선택하기"
+
+#: doc/help/C/mintupdate/kernels.page:67(p)
+msgid ""
+"You can have multiple kernels installed, but you can only run one kernel at "
+"a time."
+msgstr "여러 개의 커널을 설치할 수는 있지만, 커널은 한 번에 하나만 실행됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:69(p)
+msgid ""
+"When you boot the computer, the very first screen is called the Grub menu. "
+"This menu allows you to choose operating systems but you can also use it to "
+"select a kernel."
+msgstr ""
+"컴퓨터를 부팅할 때 마주하는, 맨 첫 화면을 Grub 메뉴라고 부릅니다. 이 메뉴에서 운영 체제를 고를 수도 있고 커널을 고를 수도 "
+"있습니다."
+
+#: doc/help/C/mintupdate/kernels.page:71(p)
+msgid ""
+"If you only have one operating system installed, your boot sequence might "
+"skip the Grub menu. To force the Grub menu to show, boot the computer and "
+"keep pressing the left <key>Shift</key> key."
+msgstr ""
+"설치한 운영체제가 하나면, 부팅 절차에서 Grub 메뉴를 건너 뛸수도 있습니다. Grub 메뉴를 일부러 보일 땐, 컴퓨터를 부팅하면서 "
+"왼쪽 <key>Shift</key>키를 누르시면 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:73(p)
+msgid ""
+"To select a kernel, choose \"Advanced options\" in the Grub menu. You should "
+"see all the kernels currently installed. Select the one you want to use and "
+"your computer will boot with that one."
+msgstr ""
+"커널을 선택하려면, Grub메뉴의 \"고급 옵션\"으로 가세요. 설치되어 있는 모든 커널이 보일 겁니다. 사용하려는 커널을 고르시면 "
+"여러분의 컴퓨터는 그 커널로 부팅하게 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:78(title)
+msgid "Checking the DKMS status"
+msgstr "DKMS 상태 확인하기"
+
+#: doc/help/C/mintupdate/kernels.page:80(p)
+msgid ""
+"The kernel includes all open source drivers and these usually work very "
+"well. Proprietary drivers (NVIDIA, AMD, Broadcom, etc.) are not included and "
+"they need to compile themselves against every kernel you install. This is "
+"done via a mechanism called DKMS."
+msgstr ""
+"커널에는 모든 오픈 소스 드라이버들이 담겨 있으며 일반적으로 아주 잘 작동합니다. 독점 드라이버들 (NVIDIA, AMD, "
+"Broadcom… 등등)은 포함되지 않으며 드라이버 별로 설치하려는 커널에 맞게 컴파일해야 합니다. 이런 일련의 과정은 DKMS라 불리는 "
+"방식에 의해서 이루어집니다."
+
+#: doc/help/C/mintupdate/kernels.page:82(p)
+msgid ""
+"If a proprietary driver isn't properly recompiled with DKMS for one of your "
+"kernels, it will not function correctly with that kernel."
+msgstr ""
+"독점 드라이버가 여러분이 설치하려는 커널 중 하나에서 DKMS와 제대로 컴파일되지 않으면, 그 커널에서는 제대로 작동하지 않게 됩니다."
+
+#: doc/help/C/mintupdate/kernels.page:84(p)
+msgid ""
+"After installing or removing a kernel, you can check your DKMS status, to "
+"make sure all proprietary drivers are properly installed for each of your "
+"kernels with the following command:"
+msgstr ""
+"커널을 설치하거나 제거한 후에, 이 명령어를 통해 DKMS 상태를 확인해서, 모든 독점 드라이버들이 각 커널에 맞게 제대로 설치되었나를 "
+"확인해볼 수 있습니다:"
+
+#: doc/help/C/mintupdate/kernels.page:86(screen)
+#, no-wrap
+msgid "dkms status"
+msgstr "dkms status"
+
+#: doc/help/C/mintupdate/kernels.page:88(p)
+msgid ""
+"New kernel series usually become available before proprietary drivers "
+"support them via DKMS. If you are using proprietary drivers, it is "
+"recommended to stick to kernel updates and not to install kernels from "
+"series which are newer than the series of the recommended kernels."
+msgstr ""
+"일반적으로 독점 드라이버가 DKMS를 지원하기 전에 새 커널이 나옵니다. 독점 드라이버를 사용하시면, 커널 업데이트를 이용하시길 바라며 "
+"권장 커널보다 새 버전의 커널 설치는 추천하지 않습니다."
+
+#: doc/help/C/mintupdate/kernels.page:93(title)
+msgid "Reverting a kernel update"
+msgstr "커널 업데이트 되돌리기"
+
+#: doc/help/C/mintupdate/kernels.page:95(p)
+msgid ""
+"If something doesn't work with the latest kernel you installed (or the "
+"latest kernel update), reboot, select the kernel you were previously using, "
+"remove the new kernel and reboot again."
+msgstr ""
+"최신 커널 설치 후 (또는 최신 커널 업데이트 후)에 뭔가 이상이 생기면, 다시 시작해서, 이전에 사용하시던 커널을 사용하시고, 새 "
+"커널을 지운 후에 다시 시작하세요."
+
+#: doc/help/C/mintupdate/index.page:18(title)
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:830
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:993
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:316
+#: generate_desktop_files:20 generate_desktop_files:108
+#: usr/share/linuxmint/mintupdate/main.ui.h:1
+msgid "Update Manager"
+msgstr "업데이트 매니저"
+
+#: doc/help/C/mintupdate/index.page:20(p)
+msgid ""
+"The Update Manager provides your operating system with software and security "
+"updates."
+msgstr "업데이트 매니저는 여러분에게 소프트웨어와 보안 업데이트를 제공해 드립니다."
+
+#: doc/help/C/mintupdate/index.page:22(p)
+msgid ""
+"Updates are important because they keep your computer safe, eliminate bugs "
+"and can even add new features to your operating system."
+msgstr "업데이트는 중요합니다 여러분의 컴퓨터를 안전하게 유지하고, 버그를 잡으며 운영 체제에 새 기능을 더하기도 하기 때문입니다."
+
+#: doc/help/C/mintupdate/index.page:24(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions', "
+"which can break things which worked well before."
+msgstr "안타깝게도 동시에, 이전에 잘 되던 기능을 안되게 만드는 '퇴행'이라고 불리는 새로운 이슈를 만들기도 합니다."
+
+#: doc/help/C/mintupdate/index.page:26(p)
+msgid ""
+"To keep your computer safe and in good working condition, it is recommended "
+"to apply all available updates and to set up system snapshots, so that you "
+"can restore your system in case something goes wrong."
+msgstr ""
+"여러분의 컴퓨터를 안전하고 좋은 상태를 유지하게 하시려면, 만일의 경우 시스템에 이상이 생겨도 복구하실 수 있도록 시스템 스냅샷에 관한 "
+"모든 가능한 업데이트를 적용하시길 권해드립니다."
+
+#: doc/help/C/mintupdate/index.page:29(title)
+msgid "Core concepts"
+msgstr "핵심 개념"
+
+#: doc/help/C/mintupdate/index.page:31(p)
+msgid "This section explains the core concepts related to software updates."
+msgstr "이 섹션에서는 소프트웨어 업데이트에 관한 핵심 개념을 설명합니다."
+
+#: doc/help/C/mintupdate/index.page:37(p)
+msgid "This section explains kernel updates."
+msgstr "이 섹션에서는 커널 업데이트를 설명합니다."
+
+#: doc/help/C/mintupdate/index.page:41(title)
+msgid "Advanced techniques"
+msgstr "고급 기술"
+
+#: doc/help/C/mintupdate/index.page:43(p)
+msgid "This section explains advanced techniques."
+msgstr "이 섹션에서는 고급 기술에 관해서 설명합니다."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: doc/help/C/mintupdate/index.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Jung-Kyu Park https://launchpad.net/~bagjunggyu\n"
+"  gm10 https://launchpad.net/~gm10"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:320
+msgid ""
+"Warning: This is an unsupported kernel meant for testing purposes. Consider "
+"switching to a supported kernel instead."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:405
+#, python-format
+msgid "Linux kernel %s"
+msgstr "리눅스 커널 %s"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:406
+msgid "The Linux kernel."
+msgstr "리눅스 커널."
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:409
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:7
+msgid ""
+"The Linux kernel provides the interface that allows your software to "
+"interact with your hardware. It includes open-source device and filesystem "
+"drivers, and proprietary drivers need to support it. Because of that, a new "
+"kernel can affect all areas of your system."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:412
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:8
+msgid ""
+"Should you experience problems after installing or updating a kernel, you "
+"can reboot using another kernel. This can be done via the corresponding "
+"function in Kernel Manager's options menu, or via the GRUB boot loader's "
+"boot menu (access it by rebooting and pressing Esc once after the BIOS boot "
+"screen disappears, then select the advanced options to access your previous "
+"kernel). After the reboot, remove the problematic kernel using Kernel "
+"Manager."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:417
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:9
+msgid ""
+"If you configured system snapshots, you can also use Timeshift to restore a "
+"previous known working configuration."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:419
+msgid ""
+"Be aware that this kernel update will be installed in addition to your "
+"current kernel. If you do not have Update Manager's Automatic Maintenance "
+"service enabled, be sure to manage the amount of kernels you keep installed "
+"for they take up a lot of disk space."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel-manager.py:30
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:181
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:205
+#: generate_desktop_files:94 usr/share/linuxmint/mintupdate/preferences.ui.h:27
+msgid "Preferences"
+msgstr "설정"
+
+#: usr/lib/linuxmint/mintUpdate/kernel-manager.py:72
+msgid "Back"
+msgstr "뒤로"
+
+#: usr/lib/linuxmint/mintUpdate/mintupdate-cli.py:153
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:85
+#, python-format
+msgid "Before updating: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:27
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:86
+msgid "Reboot required"
+msgstr "다시 시작해야 합니다."
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:28
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:87
+msgid ""
+"You have installed updates that require a reboot to take effect, please "
+"reboot your system as soon as possible."
+msgstr "시스템을 다시 시작해야 적용되는 업데이트를 설치하셨습니다, 가능한 한 빨리 시스템을 다시 시작해주세요."
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:33
+msgid "Automatic updates error"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:34
+#, python-format
+msgid ""
+"The automatic update service returned an error, for details please check the "
+"log file at %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/ChangelogWindow.py:61
+#: usr/lib/linuxmint/mintUpdate/main/ChangelogRetrieverThread.py:41
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:293
+msgid "No changelog available"
+msgstr "변경사항이 없습니다"
+
+#: usr/lib/linuxmint/mintUpdate/common/ChangelogWindow.py:69
+#, python-format
+msgid "Changelog for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:101
+msgid "Mainline Kernel Download"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:111
+#, python-brace-format
+msgid "Downloading {filename}…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:130
+msgid "Download canceled"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:147
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:504
+#, python-brace-format
+msgid "Failed to download {url}"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:151
+msgid "Verifying downloaded files…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:163
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:519
+msgid "Checksum verification of downloaded files failed"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:187
+msgid "Mainline Kernel Installation"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:192
+msgid "Installing…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:208
+msgid "Error during installation"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:213
+msgid "Installation complete"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:22
+msgid "Ubuntu mainline kernel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:172
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:179
+msgid "Failed to retrieve daily mainline builds list."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:250
+msgid "Failed to retrieve mainline kernel support status."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:257
+msgid "Failed to parse mainline kernel support status."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:309
+msgid "Failed to retrieve mainline kernel list."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:316
+msgid "Failed to parse mainline kernel list."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:407
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:426
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:436
+#, python-brace-format
+msgid "Mainline kernel {version} is unavailable (failed to build)"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:421
+#, python-brace-format
+msgid "Failed to retrieve mainline kernel {version} data"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:433
+#, python-brace-format
+msgid "Failed to parse mainline kernel {version} data"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/common/dialogs.py:13
+#: usr/lib/linuxmint/mintUpdate/kernel/InstallKernelThread.py:191
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:490
+msgid "Cannot Proceed"
+msgstr "계속할 수 없음"
+
+#: usr/lib/linuxmint/mintUpdate/common/dialogs.py:14
+msgid ""
+"Another process is currently using the package management system. Please "
+"wait for it to finish and then try again."
+msgstr "다른 프로세스가 패키지 관리 시스템을 사용하고 있습니다. 끝날 때까지 기다리셨다가 다시 시도해주세요."
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:31
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:34
+msgid "Date"
+msgstr "날짜"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:36
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:247
+msgid "Package"
+msgstr "패키지"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:38
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:131
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:248
+msgid "Old Version"
+msgstr "옛 버전"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:41
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:133
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:249
+msgid "New Version"
+msgstr "새 버전"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:51
+msgid "Yes"
+msgstr "예"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:52
+msgid "No"
+msgstr "아니요"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:54
+msgid "OK"
+msgstr "확인"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:104
+msgid "distribution"
+msgstr "배포판"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:107
+#, python-brace-format
+msgid "Your {release_name} is only supported until {eol_date}."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:108
+msgid ""
+"Your system will remain functional after that date, but the official "
+"software repositories will become unavailable along with any updates "
+"including security updates."
+msgstr ""
+"해당 날짜 이후에도 시스템은 정상 작동합니다, 하지만 공식 저장소와 그를 통한 모든 업데이트와 보안 업데이트는 더 이상 제공되지 않게 "
+"됩니다."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:110
+msgid ""
+"You should perform an upgrade to or a clean install of a newer version of "
+"your distribution before that happens."
+msgstr "그러기 전에 사용 중이신 배포판의 업그레이드나 새로 설치를 하시는 게 좋습니다."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:114
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:316
+#, python-format
+msgid "For more information visit %s."
+msgstr "자세한 정보는  %s에서 확인해 주세요."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:116
+msgid "DISTRIBUTION END OF LIFE WARNING"
+msgstr "배포판 지원 기간 마감 알림"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:242
+msgid "Do you want to switch to a local mirror?"
+msgstr "로컬 미러 서버로 바꾸시겠습니까?"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:243
+msgid "Local mirrors are usually faster."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:248
+msgid "Please switch to another mirror"
+msgstr "다른 미러 서버로 바꿔보세요"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:276
+#, python-format
+msgid "%s is unreachable."
+msgstr "%s에 접근할 수 없습니다."
+
+#. TRANSLATORS: this refers to the "Main" mirror type as seen on the software-sources
+#. tool's Official Repositories tab, please use the same translation
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:284
+msgid "The configured main mirror is out of date."
+msgstr ""
+
+#. TRANSLATORS: this refers to the "Base" mirror type as seen on the software-sources
+#. tool's Official Repositories tab, please use the same translation
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:288
+msgid "The configured base mirror is out of date."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:313
+msgid "New Linux Mint point release available!"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:315
+#, python-format
+msgid "You can upgrade to %s from the Edit menu."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:323
+#, python-format
+msgid "You can now upgrade to %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:76
+msgid "Creating system snapshot"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:94
+msgid "Creating system snapshot:"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:111
+msgid "Timeshift returned an error"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:116
+msgid "Removing old system snapshot:"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:126
+#, python-format
+msgid "System snapshot failed: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:152
+msgid "Installation canceled"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:155
+msgid "Installing updates"
+msgstr "업데이트를 설치하고 있습니다."
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:268
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:271
+msgid "Could not install the updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:285
+msgid "Automated System Snapshot"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:286
+msgid ""
+"Do you want a system snapshot to be created before installing the updates?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:297
+msgid "This upgrade will trigger additional changes"
+msgstr "해당 업그레이드는 추가적인 변경을 일으킵니다."
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:306
+msgid "The following packages will be removed:"
+msgstr "다음의 패키지들이 제거됩니다:"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:335
+msgid "The following packages will be installed:"
+msgstr "다음 패키지들이 설치됩니다:"
+
+#: usr/lib/linuxmint/mintUpdate/main/LogView.py:13
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:183
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:271
+#: generate_desktop_files:101 usr/share/linuxmint/mintupdate/shortcuts.ui.h:13
+msgid "Log View"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:121
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:246
+msgid "Type"
+msgstr "형식"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:129
+msgid "Name"
+msgstr "이름"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:135
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:251
+msgid "Size"
+msgstr "크기"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:137
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:250
+msgid "Origin"
+msgstr "출처"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:170
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:909
+#: generate_desktop_files:59
+msgid "Show"
+msgstr "보기"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:173
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:90
+#: generate_desktop_files:73 usr/share/linuxmint/mintupdate/main.ui.h:4
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:3
+msgid "Refresh"
+msgstr "새로고침"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:176
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:267
+#: generate_desktop_files:80 generate_desktop_files:130
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:1
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:11
+msgid "Kernel Manager"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:179
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:269
+#: generate_desktop_files:87 usr/share/linuxmint/mintupdate/history.ui.h:1
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:12
+msgid "History of Updates"
+msgstr "업데이트 기록"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:185
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:199
+msgid "Quit"
+msgstr "끝내기"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:195
+msgid "_File"
+msgstr "파일(_F)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:198
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:913
+#: generate_desktop_files:66 usr/share/linuxmint/mintupdate/shortcuts.ui.h:2
+msgid "Hide"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:202
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:207
+msgid "Software Sources"
+msgstr "소프트웨어 소스"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:210
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:11
+msgid "System Snapshots"
+msgstr "시스템 스냅샷"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:235
+#, python-format
+msgid "Upgrade to %s"
+msgstr "%s로 업그레이드"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:254
+msgid "_View"
+msgstr "보기(_V)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:257
+msgid "Visible Columns"
+msgstr "보이는 항목"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:258
+msgid "Show Descriptions"
+msgstr "자세한 설명 보이기"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:262
+msgid "_Tools"
+msgstr "도구(_T)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:274
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:277
+msgid "Contents"
+msgstr "내용"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:279
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:281
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:992
+msgid "About"
+msgstr "정보"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:461
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:617
+msgid "No updates selected"
+msgstr "선택된 업데이트가 없습니다"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:464
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgid_plural "%(selected)d updates selected (%(size)s)"
+msgstr[0] "%(selected)d개 업데이트 항목의 크기(%(size)s)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:747
+msgid "Downloading changelog…"
+msgstr "변경사항 내역 받아오는 중…"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:778
+msgid "This update affects the following installed package:"
+msgid_plural "This update affects the following installed packages:"
+msgstr[0] "이 업데이트는 이미 설치되어있는 패키지들에 영향을 끼칩니다:"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:783
+#, python-format
+msgid "Download size: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:784
+#, python-format
+msgid "Installed size: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:796
+msgid "Ignore the current update for this package"
+msgstr "이 패키지의 현재 업데이트를 건너뛰기"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:799
+msgid "Ignore all updates for this package"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:808
+#, python-format
+msgid "Are you sure you want to ignore %s?"
+msgstr ""
+
+#. TRANSLATORS: This is a tag added to package names on the ignore list
+#. if a package is on hold in apt - see `man apt-mark`. In case of doubt
+#. leave this untranslated.
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:37
+msgid "[apt hold]"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:89
+msgid "General"
+msgstr "일반"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:91
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:46
+msgid "Ignore List"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:92
+msgid "Automation"
+msgstr "자동화"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:93
+msgid "Expert"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:103
+msgid ""
+"To use this option you must have a version of libappindicator and the "
+"corresponding GObject introspection library installed."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:105
+msgid ""
+"Your desktop environment may further require an extension to be installed to "
+"show the indicator."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/share/linuxmint/mintupdate/main.ui.h:12
+msgid "Packages"
+msgstr "패키지"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/share/linuxmint/mintupdate/main.ui.h:13
+msgid "Description"
+msgstr "설명"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:16
+#: usr/share/linuxmint/mintupdate/main.ui.h:14
+msgid "Changelog"
+msgstr "변경사항"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:140
+msgid "Requires Software Manager (mintinstall) to be installed"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:145
+msgid "Ignored Updates"
+msgstr "그냥 넘긴 업데이트 항목"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:377
+#, python-format
+msgid "Next Run: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:380
+#, python-format
+msgid "Last Run: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:404
+msgid ""
+"Timeshift must be installed and set up before automated system snapshots can "
+"be enabled."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:464
+msgid "Ignore an Update"
+msgstr "업데이트 그냥 넘기기"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:465
+msgid ""
+"Please specify the source package name of the update to ignore (wildcards "
+"are supported) and optionally the version:"
+msgstr "그냥 넘길 업데이트 항목의 소스 패키지 이름을 지정하시고 (와일드카드를 지원합니다) 옵션으로 버전도 지정해주세요:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:475
+msgid "Name:"
+msgstr "이름:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:477
+msgid "Version:"
+msgstr "버전:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:479
+msgid "(optional)"
+msgstr "(옵션)"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:80
+msgid "Run 'apt update' in a terminal window to address this"
+msgstr "이 문제를 해결하시려면 터미널에서 'apt update'를 실행하세요"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:131
+msgid "Kernel update"
+msgstr "커널 업데이트"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:134
+msgid "Security update"
+msgstr "보안 업데이트"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:137
+msgid ""
+"Unstable software. Only apply this update to help developers beta-test new "
+"software."
+msgstr "불안정한 버전의 소프트웨어. 베타-테스트로 개발자를 도우실 때만 업데이트하세요."
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:141
+msgid "Software update"
+msgstr "소프트웨어 업데이트"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:145
+msgid "3rd-party update"
+msgstr "3rd-party 업데이트"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:185
+msgid "Your distribution has reached end of life and is no longer supported"
+msgstr "사용하고 계시는 배포판의 지원 기간이 끝나서 더 이상 지원을 받으실 수 없습니다"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:190
+#: usr/share/linuxmint/mintupdate/main.ui.h:11
+msgid "Your system is up to date"
+msgstr "최신 업데이트를 적용한 시스템을 사용하고 계십니다"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:204
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:321
+#: usr/share/linuxmint/mintupdate/main.ui.h:6
+msgid "Could not refresh the list of updates"
+msgstr "업데이트 목록을 불러올 수 없습니다"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:245
+msgid "Checking for updates"
+msgstr "업데이트 확인중"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:265
+#: usr/share/linuxmint/mintupdate/main.ui.h:8
+msgid "Update Manager needs to be updated"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:275
+msgid "Retrieving changelog…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:311
+#, python-format
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] "%d개의 업데이트가 가능합니다"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:327
+msgid "APT's cache or configuration are corrupt."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:328
+msgid ""
+"Do not install or update anything, it could break your operating system!"
+msgstr "아무것도 설치하거나 업데이트하지 마세요, 여러분의 시스템을 망가트릴 수 있습니다."
+
+#. TRANSLATORS: "Delete cached repository indexes" is a button in the software-sources tool, please use the same translation here
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:330
+msgid ""
+"Open Software Sources and try to either delete cached repository indexes via "
+"that maintenance option or select different mirrors."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:331
+msgid "APT error:"
+msgstr "APT 오류:"
+
+#. TRANSLATORS: the abbreviation of gigabyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:20
+msgid "GB"
+msgstr "GB"
+
+#. TRANSLATORS: the abbreviation of megabyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:23
+msgid "MB"
+msgstr "MB"
+
+#. TRANSLATORS: the abbreviation of kilobyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:26
+msgid "KB"
+msgstr "KB"
+
+#. TRANSLATORS: the abbreviation of byte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:28
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:66
+msgid ""
+"The automatic update service is enabled on this system. Do you want it to "
+"use your modified ignore list?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:17
+msgid "Bug Tracker"
+msgstr "버그 트레커"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:18
+msgid "Known Security Issues (CVE)"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:19
+msgid ""
+"<b>Warning:</b> This is an unsupported kernel meant for testing purposes."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:141
+#: usr/lib/linuxmint/mintUpdate/kernel/MarkKernelRow.py:13
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:49
+msgid "Remove"
+msgstr "제거하기"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:142
+msgid "Queue Removal"
+msgstr "대기 목록 제거"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:144
+msgid "This kernel cannot be removed because it is currently in use."
+msgstr "이 커널은 현재 사용 중인 커널이어서 제거할 수 없습니다"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:147
+#: usr/lib/linuxmint/mintUpdate/kernel/MarkKernelRow.py:15
+msgid "Install"
+msgstr "설치하기"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:148
+msgid "Queue Installation"
+msgstr "대기 목록 설치"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:187
+#, python-format
+msgid "Are you sure you want to remove the %s kernel?"
+msgstr "정말 %s 커널을 제거하시겠습니까?"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:189
+#, python-format
+msgid "Are you sure you want to install the %s kernel?"
+msgstr "정말 %s 커널을 설치하시겠습니까?"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:206
+msgid ""
+"Kernel can be removed automatically.\n"
+"Click to add automatic removal protection."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:209
+msgid ""
+"Kernel is protected from automatic removal.\n"
+"Click to remove automatic removal protection."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:134
+msgid "Set Default Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:135
+msgid "Reboot to Default Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:136
+msgid "Reboot to Current Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:137
+msgid "Reboot to Another Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:232
+msgid "Active"
+msgstr "사용"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:236
+msgid "Installed"
+msgstr "설치됨"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:238
+msgid "(Pre-release)"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:240
+msgid "(Mainline)"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:312
+msgid "End of Life"
+msgstr "지원 기간 지남"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:313
+msgid "Superseded"
+msgstr "대체됨"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:314
+msgid "Unsupported"
+msgstr "지원하지 않음"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:315
+msgid "Status Unknown"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:316
+msgid "Supported until"
+msgstr "지원 기간"
+
+#. TRANSLATORS: a mainline kernel version that gets built every day
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:318
+msgid "Daily build"
+msgstr ""
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:320
+msgid "Mainline"
+msgstr ""
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:322
+msgid "Stable"
+msgstr ""
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:324
+msgid "Longterm"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:405
+msgid "You are currently using the following kernel:"
+msgstr "지금 사용하시는 커널입니다:"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:412
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:427
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:18
+msgid "Select the kernel to reboot to:"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:428
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:19
+msgid "Reboot to Selected Kernel Now"
+msgstr ""
+
+#. TRANSLATORS: GRUB_DEFAULT=saved and the /etc/default/grub path must not be translated
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:433
+msgid ""
+"Select the kernel the system with with by default.\n"
+"GRUB_DEFAULT=saved must be set in /etc/default/grub."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:435
+msgid "Set Selected Kernel as Default Kernel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:457
+msgid "Reboot to default kernel now?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:463
+#, python-brace-format
+msgid "Reboot to kernel {selected_kernel} now?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:491
+msgid "Failed to configure selected kernel with GRUB"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:609
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:14
+msgid "Kernel installation/removal in progress"
+msgstr ""
+
+#: generate_desktop_files:21
+msgid "Show and install available updates"
+msgstr "이용 가능한 업데이트를 보여주고, 설치합니다"
+
+#: generate_desktop_files:131
+msgid "Install and remove kernels"
+msgstr ""
+
+#: generate_desktop_files:148
+msgid "Update and Kernel Manager"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:2
+#: usr/share/linuxmint/mintupdate/main.ui.h:7
+msgid "Refreshing the list of updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:3
+msgid "Right click an entry to show the changelog"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:4
+msgid "Close"
+msgstr "닫기"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:2
+msgid "Kernel flavor:"
+msgstr "커널 종류:"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:3
+msgid "Perform Queued Actions…"
+msgstr "대기 목록 실행…"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:4
+msgid "Remove Kernels…"
+msgstr "커널 지우기…"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:5
+msgid "Warning!"
+msgstr "알림!"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:6
+msgid "Proceed with caution"
+msgstr "신중하게 진행하기"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:10
+msgid "Do not show this message again"
+msgstr "이 메시지를 다시 보지 않기"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:11
+msgid "Help"
+msgstr "도움말"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:12
+msgid "Continue"
+msgstr "계속"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:13
+msgid "Refreshing the list of kernels"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:15
+msgid "Please confirm the following actions:"
+msgstr "다음 활동을 확인해 주세요:"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:16
+msgid "Cancel"
+msgstr "취소"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:17
+msgid "Apply"
+msgstr "적용"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:20
+msgid ""
+"This will fail if /boot/grub/grub.cfg does not belong to your currently "
+"active boot loader or if GRUB cannot write to the environment block, such as "
+"when it is stored on an MDRAID or LVM device."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:2
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:6
+msgid "Clear"
+msgstr "선택 해제"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:3
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:7
+msgid "Select All"
+msgstr "모두 선택"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:5
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:4
+msgid "Install Updates"
+msgstr "업데이트 설치"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:9
+msgid "Update and Restart Update Manager"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:10
+msgid "Apply self-updates automatically"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:1
+msgid ""
+"The options on this page can be harmful for your system and are only meant "
+"for expert users. Do not use them without a very good understanding of the "
+"implications."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:2
+msgid "Mainline Kernels"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:3
+msgid ""
+"The so-called mainline kernels are untested builds of the raw kernel sources "
+"from kernel.org, without the modifications and additional drivers included "
+"in the supported kernels. They are meant for testing purposes and not for "
+"use on production systems."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:4
+msgid "Allow installation of mainline kernels"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:5
+msgid "Include the latest unreleased series (release candidate)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:6
+msgid ""
+"Warning: Release candidate kernels are the most likely to cause problems."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:7
+msgid "Include longterm support series"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:8
+msgid ""
+"Warning: This can noticeably slow down the kernel window due to the amount "
+"of kernels available in some of those series."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:9
+msgid ""
+"Upgrade to the latest released series after the installed series reaches end-"
+"of-life"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:10
+msgid "Kernel Flavors"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:11
+msgid ""
+"By default only the -generic kernel builds are available for installation "
+"since those are best suited for most desktop systems. By checking this "
+"option you enable a dropdown in the kernel window that allows you to choose "
+"other kernel flavors."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:12
+msgid "Allow installation of different kernel flavors"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:13
+msgid ""
+"Note that regardless of the setting the flavor selector shows automatically "
+"when you already have kernels of different flavors installed."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:14
+msgid ""
+"Further note that switching to a different flavor can lead to a kernel meta-"
+"package for that flavor getting added to your list of updates."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:1
+msgid "Interface"
+msgstr "인터페이스"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:2
+msgid "Hide the main window when installing or removing updates or kernels"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:3
+msgid ""
+"If you do not enable the next option as well then you will still have to "
+"close the popup window first before Update Manager's window closes."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:4
+msgid "Close installation/removal popup automatically"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:5
+msgid "Show desktop notifications"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:6
+msgid "Only show a tray icon when updates are available or in case of errors"
+msgstr "업데이트할 것이 있거나 오류가 있을 때만 트레이에 아이콘 보이기"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:7
+msgid ""
+"Use AppIndicator for the tray icon (more limited but supports more desktops)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:8
+msgid "Update details default tab:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:9
+msgid "Self-Updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:10
+msgid ""
+"Apply updates to Update Manager and other priority packages automatically"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:12
+msgid ""
+"Automatically create a system snapshot before manually installing updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:13
+msgid "Maximum number of those snapshots to keep:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:14
+msgid "Ask for confirmation before creating a snapshot"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:15
+msgid "Refresh Schedule"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:16
+msgid "Enable scheduled refresh of the list of available updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:17
+msgid ""
+"You can disable each refresh type individually by setting its schedule to 0."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:18
+msgid "Recurring refresh every:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:19
+msgid "Hours"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:20
+msgid "Minutes"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:21
+msgid "Initial refresh after:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:22
+msgid "Days"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:23
+msgid ""
+"The initial refresh time is calculated from application start. The recurring "
+"refresh time is calculated from the time of the last refresh performed by "
+"this application."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:24
+msgid ""
+"A due scheduled refresh will be delayed while the Update Manager window is "
+"open."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:25
+msgid "Software Manager"
+msgstr "소프트웨어 매니저"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:26
+msgid ""
+"Refresh Software Manager's package cache with each scheduled or manual "
+"refresh"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:28
+msgid "Automatic Updates"
+msgstr "자동 업데이트"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:29
+msgid ""
+"Make sure your system snapshots are properly configured before using this "
+"option."
+msgstr "이 설정을 적용하기 전에 당신의 시스템 스냅샷이 적절히 설정되있는지 확인하십시오."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:30
+msgid ""
+"With this option all updates are applied automatically on a daily basis via "
+"a system service."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:31
+msgid ""
+"You will be prevented from rebooting or shutting down the system while this "
+"service is running to prevent system corruption."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:32
+msgid "Apply updates automatically"
+msgstr "자동 업데이트 적용"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:33
+msgid "Only include kernel updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:34
+msgid "Only include security updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:35
+msgid ""
+"Do not update configuration files\n"
+"(use with caution)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:37
+msgid "Export ignore list to /etc/mintupdate.blacklist"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:38
+msgid ""
+"Show a desktop notification if automatic updates failed or require a reboot"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:39
+msgid "Allow mainline kernel updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:40
+msgid ""
+"Install recommended packages\n"
+"(use with caution)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:42
+msgid "Create system snapshot"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:43
+msgid "Automatic Maintenance"
+msgstr "자동 유지"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:44
+msgid ""
+"This weekly service removes no longer needed dependencies as well as old "
+"kernel updates. It always leaves at least one older kernel installed and "
+"never removes manually installed kernels."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:45
+msgid "Enable automatic maintenance"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:47
+msgid ""
+"Packages listed here will never receive updates. Use this option to block "
+"updates that you know cause issues on your system."
+msgstr ""
+"여기 목록에 있는 패키지들은 절대 업데이트되지 않습니다. 여러분의 시스템에 문제를 일으키는 업데이트를 차단하는 용도로 이 옵션을 "
+"이용하시기 바랍니다."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:48
+msgid ""
+"It is recommended to add packages to the ignore list by right-clicking them "
+"in the updates listing."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:50
+msgid "Add…"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:1
+msgid "Window"
+msgstr "윈도우"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:5
+msgid "Selection"
+msgstr "모음"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:8
+msgid "Select Security Updates"
+msgstr "보안 업데이트 선택"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:9
+msgid "Select Kernel Updates"
+msgstr "커널 업데이트 선택"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:10
+msgid "Tools"
+msgstr "도구"

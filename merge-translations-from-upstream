@@ -1,0 +1,39 @@
+#!/bin/bash
+TMPFOLDER=/tmp/po-merge
+rm -rf ${TMPFOLDER}
+mkdir -p ${TMPFOLDER}
+# Get local project name
+PROJECT=$(ls -1 po/|head -n1);PROJECT=${PROJECT%-*}
+# Get all upstream project names
+UPSTREAM_PROJECTS=($(ls ../mint-translations/po-export/))
+# Process all languages
+for FILE in $(ls po/*.po); do
+    LANG=${FILE%.po};LANG=${LANG#*${PROJECT}-}
+    echo "Merging all upstream translations with ${PROJECT}-${LANG}.po..."
+    # Stage reformatted and stripped current .po files so changes can be identified later
+    msgattrib --no-obsolete --output-file=po/${PROJECT}-${LANG}.po po/${PROJECT}-${LANG}.po 2>/dev/null
+    git add po/${PROJECT}-${LANG}.po
+    # Merge translations from master with current template
+    msgmerge --no-fuzzy-matching <(git show master:po/${PROJECT}-${LANG}.po) \
+        ${PROJECT}.pot -o ${TMPFOLDER}/${PROJECT}-${LANG}.po 2>/dev/null
+    # Merge with current po
+    msgcat --use-first po/${PROJECT}-${LANG}.po ${TMPFOLDER}/${PROJECT}-${LANG}.po \
+        -o po/${PROJECT}-${LANG}.po 2>/dev/null
+    # Merge all upstream translations
+    for UPSTREAM_PROJECT in ${UPSTREAM_PROJECTS[@]}; do
+        # Merge translations with current template
+        msgmerge --no-fuzzy-matching ../mint-translations/po-export/${UPSTREAM_PROJECT}/${UPSTREAM_PROJECT}-${LANG}.po \
+            ${PROJECT}.pot -o ${TMPFOLDER}/${UPSTREAM_PROJECT}-${LANG}.po 2>/dev/null
+        # Merge with current po
+        msgcat --use-first po/${PROJECT}-${LANG}.po ${TMPFOLDER}/${UPSTREAM_PROJECT}-${LANG}.po \
+            -o po/${PROJECT}-${LANG}.po 2>/dev/null
+    done
+    # Obsolete unused entries
+    msgattrib --set-obsolete --ignore-file=${PROJECT}.pot -o po/${PROJECT}-${LANG}.po po/${PROJECT}-${LANG}.po
+    # Strip obsolete entries
+    msgattrib --no-obsolete --output-file=po/${PROJECT}-${LANG}.po po/${PROJECT}-${LANG}.po
+done
+# Clean up
+rm -rf ${TMPFOLDER}
+echo "All done!"
+echo ".po files with unstaged changes should now be reviewed and uploaded back to launchpad."

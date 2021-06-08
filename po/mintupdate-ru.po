@@ -1,0 +1,2012 @@
+# Russian translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gm10-linuxmint-tools\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-01-08 11:56+0100\n"
+"PO-Revision-Date: 2019-12-09 18:59+0000\n"
+"Last-Translator: gm10 <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: ru\n"
+
+#: doc/help/C/mintupdate/updates.page:10(name)
+#: doc/help/C/mintupdate/snapshots.page:10(name)
+#: doc/help/C/mintupdate/regressions.page:10(name)
+#: doc/help/C/mintupdate/mintupdate-cli.page:10(name)
+#: doc/help/C/mintupdate/kernels.page:10(name)
+#: doc/help/C/mintupdate/index.page:9(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
+
+#: doc/help/C/mintupdate/updates.page:11(email)
+#: doc/help/C/mintupdate/snapshots.page:11(email)
+#: doc/help/C/mintupdate/regressions.page:11(email)
+#: doc/help/C/mintupdate/mintupdate-cli.page:11(email)
+#: doc/help/C/mintupdate/kernels.page:11(email)
+#: doc/help/C/mintupdate/index.page:10(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: doc/help/C/mintupdate/updates.page:16(desc)
+msgid "There are different types of updates"
+msgstr "Существуют различные типы обновлений"
+
+#: doc/help/C/mintupdate/updates.page:19(title)
+msgid "The different types of updates"
+msgstr "Различные типы обновлений"
+
+#: doc/help/C/mintupdate/updates.page:21(p)
+msgid "There are different types of updates:"
+msgstr "Существуют различные типы обновлений:"
+
+#: doc/help/C/mintupdate/updates.page:24(p)
+msgid ""
+"'Software updates' are updates which fix bugs (or also sometimes which bring "
+"new features)."
+msgstr ""
+"«Менеджер обновлений» устанавливает обновления, которые исправляют ошибки (а "
+"также иногда добавляет новые возможности)."
+
+#: doc/help/C/mintupdate/updates.page:25(p)
+msgid "'Security updates' are updates which patch vulnerabilities."
+msgstr ""
+"«Менеджер обновлений» устанавливает обновления, которые исправляют "
+"уязвимости."
+
+#: doc/help/C/mintupdate/updates.page:26(p)
+msgid "'Kernel updates' represent the installation of a newer kernel."
+msgstr "«Обновления ядра» позволяют устанавливать новые версии ядра."
+
+#: doc/help/C/mintupdate/updates.page:29(p)
+msgid ""
+"Security is very important but also very technical. Vulnerabilities don't "
+"always affect your computer and can be quite difficult to understand. Most "
+"people don't understand them at all and their personal computers are rarely "
+"at risk. That said, a security breach can have dire consequences, so it is "
+"always recommended to take them seriously."
+msgstr ""
+"Безопасность очень важна и имеет техническую составляющую. Уязвимости не "
+"всегда наносят ущерб вашему компьютеру и могут быть осознаны с "
+"затруднениями. Большинство людей не осознают этого и их компьютеры "
+"подвержены риску. Тем не менее, нарушение безопасности может иметь печальные "
+"последствия, поэтому всегда рекомендуется относиться к ним серьезно."
+
+#: doc/help/C/mintupdate/updates.page:31(p)
+msgid ""
+"Software updates aren't as important. They bring bug fixes or improvements "
+"which are not related to security."
+msgstr ""
+"Обновления программного обеспечения не так важны. Они привносят исправления "
+"ошибок или улучшения, которые не связаны с безопасностью."
+
+#: doc/help/C/mintupdate/updates.page:33(p)
+#: doc/help/C/mintupdate/kernels.page:23(p)
+msgid ""
+"In Linux Mint, kernel updates bring both security patches and bug fixes (and "
+"sometimes even new features), and they impact critical parts of the "
+"operating system. This makes kernel updates important from a security point "
+"of view, but also prone to regressions which can be hard to fix for novice "
+"users."
+msgstr ""
+"Обновления ядра в Linux Mint содержат патчи безопасности и исправления "
+"ошибок (в некоторых случаях и новые возможности), а также влияют на важные "
+"части операционной системы. С точки зрения безопасности обновление ядра "
+"важны, однако они могут привести к нежелательным последствиям, которые будет "
+"трудно устранить неопытным пользователям."
+
+#: doc/help/C/mintupdate/snapshots.page:16(desc)
+msgid ""
+"When faced with a serious regression, restore the latest system snapshot."
+msgstr ""
+"Если вы столкнулись с серьезной регрессией, восстановите последний снимок "
+"системы."
+
+#: doc/help/C/mintupdate/snapshots.page:19(title)
+msgid "System snapshots"
+msgstr "Снимки системы"
+
+#: doc/help/C/mintupdate/snapshots.page:21(p)
+msgid ""
+"Timeshift, the system snapshot utility, is available in all versions of "
+"Linux Mint."
+msgstr ""
+"Timeshift, инструмент создания снимков системы, доступна во всех версиях "
+"Linux Mint."
+
+#: doc/help/C/mintupdate/snapshots.page:23(p)
+msgid ""
+"It can be used to create snapshots manually but also to automate system "
+"snapshots."
+msgstr ""
+"Может быть использовано для ручного и автоматического создания снимков "
+"системы."
+
+#: doc/help/C/mintupdate/snapshots.page:25(p)
+msgid "Linux Mint recommends the automation of daily and boot snapshots."
+msgstr ""
+"Linux Mint рекомендует автоматизировать ежедневные и загрузочные снимки."
+
+#: doc/help/C/mintupdate/snapshots.page:27(p)
+msgid ""
+"If an update, a mistake, a bug or a malicious program breaks something on "
+"your computer, you can restore the operating system from any snapshot, thus "
+"cancelling the problem as if it never happened."
+msgstr ""
+"Если обновление, ошибка или вредоносная программа что-то сломала на вашем "
+"компьютере, вы можете восстановить операционную систему из любого снимка, "
+"ликвидировав проблему, как будто этого не произошло."
+
+#: doc/help/C/mintupdate/snapshots.page:29(p)
+msgid ""
+"System snapshots only cover the operating system itself. They do not include "
+"or affect your personal data."
+msgstr ""
+"Снимки системы касаются только операционной системы. Они не включают "
+"пользовательские данные."
+
+#: doc/help/C/mintupdate/regressions.page:16(desc)
+msgid "When an update breaks something, it's called a \"regression\"."
+msgstr ""
+"В случае, если обновление что-то ломает в системе, это называется "
+"«регрессия»."
+
+#: doc/help/C/mintupdate/regressions.page:19(title)
+msgid "Software regressions"
+msgstr "Регрессии программного обеспечения"
+
+#: doc/help/C/mintupdate/regressions.page:21(p)
+msgid ""
+"Updates keep your computer safe, eliminate bugs and even sometimes add new "
+"features to your operating system."
+msgstr ""
+"Обновления обеспечивают безопасность вашего компьютера, устраняют ошибки, и "
+"иногда добавляют новые возможности вашей операционной системе."
+
+#: doc/help/C/mintupdate/regressions.page:23(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions'."
+msgstr ""
+"К сожалению, они также иногда приводят к новым проблемам, называемым "
+"«регрессиями»."
+
+#: doc/help/C/mintupdate/regressions.page:25(p)
+msgid ""
+"Regressions are very common in the software industry. They're inherent to "
+"software development. Code changes can cause regressions. No matter how "
+"skilled developers are, they can't always predict every possible situation "
+"or test on every possible hardware specification."
+msgstr ""
+"Регрессии очень распространены в индустрии программного обеспечения. Они "
+"присущи разработке программного обеспечения. Изменения кода могут вызвать "
+"регрессии. Независимо от того, насколько опытны разработчики, они не всегда "
+"могут предсказать все возможные ситуации или протестировать работу своего "
+"программного обеспечения на всех возможных аппаратных платформах."
+
+#: doc/help/C/mintupdate/regressions.page:27(p)
+msgid ""
+"When a regression happens, it breaks something which worked well before."
+msgstr ""
+"Когда случается регрессия происходит поломка того, что хорошо работало "
+"раньше."
+
+#: doc/help/C/mintupdate/regressions.page:29(p)
+msgid "Sometimes it doesn't really matter, but sometimes it matters a lot."
+msgstr "Иногда это не так важно, но иногда это имеет большое значение."
+
+#: doc/help/C/mintupdate/regressions.page:31(p)
+msgid ""
+"It depends on what part of the operating system is affected and whether or "
+"not you're able to work around it or to fix it."
+msgstr ""
+"Это зависит от того, на какую часть операционной системы они повлияют и "
+"имеется ли возможность их обойти или исправить."
+
+#: doc/help/C/mintupdate/regressions.page:33(p)
+msgid ""
+"Say, the PDF reader is no longer able to print. Well, it's annoying, but "
+"it's not as problematic as if your network connection stopped working or if "
+"you were suddenly unable to boot the computer or to login."
+msgstr ""
+"Скажем, просмотрщик PDF больше не сможет распечатывать. Что ж, это "
+"раздражает… но это не так проблематично, как если бы ваше сетевое "
+"подключение перестало работать, или если вы внезапно не смогли загрузить "
+"компьютер или войти в систему."
+
+#: doc/help/C/mintupdate/regressions.page:35(p)
+msgid ""
+"In the latter case, it can be very problematic if you're not experienced "
+"with Linux and you don't know how to troubleshoot."
+msgstr ""
+"В последнем случае, это может быть очень проблематично, если вы не работали "
+"раньше в Linux и не знаете как решить проблему."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:16(desc)
+msgid "Updating from the command line"
+msgstr "Обновление из командной строки"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:19(title)
+msgid "Using mintupdate-cli"
+msgstr "Использование mintupdate-cli"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:21(p)
+msgid ""
+"The Update Manager provides a command line utility called \"mintupdate-cli\"."
+msgstr ""
+"Менеджер обновлений содержит инструмент командной строки \"mintupdate-cli\"."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:23(p)
+msgid ""
+"If you are experienced with Linux, you can use this tool in your scripts or "
+"your cron jobs to automate the installation of software updates."
+msgstr ""
+"Если вы опытный пользователь Linux, вы можете использовать этот инструмент в "
+"ваших скриптах или в заданиях планировщика cron для автоматизации установки "
+"обновлений программного обеспечения."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:27(title)
+msgid "Listing updates"
+msgstr "Получение списка обновлений"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:29(p)
+msgid "You can use the \"list\" command to list updates:"
+msgstr "Для получения списка обновлений используйте команду «list»:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:31(screen)
+#, no-wrap
+msgid "mintupdate-cli list"
+msgstr "mintupdate-cli list"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:33(p)
+msgid "You can use -s to only show the security updates."
+msgstr "Для отображения только обновлений безопасности используйте ключ -s."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:35(p)
+msgid "You can use -k to only show the kernel updates."
+msgstr "Для отображения только обновлений ядра используйте ключ -k."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:37(p)
+msgid "For instance, the following command lists all security updates:"
+msgstr "Например, следующая команда отображает все обновления безопасности:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:39(screen)
+#, no-wrap
+msgid "mintupdate-cli list -s"
+msgstr "mintupdate-cli list -s"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:45(title)
+msgid "Applying updates"
+msgstr "Применение обновлений"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:47(p)
+msgid ""
+"You can use the \"upgrade\" command to apply updates, using the same options."
+msgstr ""
+"Для применения обновлений с теми же параметрами используйте команду "
+"«upgrade»."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:49(p)
+msgid "For instance, the following command applies kernel updates:"
+msgstr "Например, следующая команда устанавливает обновления ядра:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:51(screen)
+#, no-wrap
+msgid "sudo mintupdate-cli upgrade -r -k"
+msgstr "sudo mintupdate-cli upgrade -r -k"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:53(p)
+msgid "Note the -r argument, which was added to refresh the cache."
+msgstr "Используйте ключ -r, если вы хотите дополнительно обновить кэш."
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:55(p)
+msgid ""
+"For more information on mintupdate-cli and a complete list of arguments, "
+"type:"
+msgstr ""
+"Для получения дополнительной информации и полного списка аргументов "
+"mintupdate-cli введите:"
+
+#: doc/help/C/mintupdate/mintupdate-cli.page:57(screen)
+#, no-wrap
+msgid "mintupdate-cli -h"
+msgstr "mintupdate-cli -h"
+
+#: doc/help/C/mintupdate/kernels.page:16(desc)
+msgid "Kernels and kernel updates"
+msgstr "Ядра и обновления ядра"
+
+#: doc/help/C/mintupdate/kernels.page:19(title)
+#: doc/help/C/mintupdate/index.page:35(title)
+msgid "Kernel updates"
+msgstr "Обновление ядра"
+
+#: doc/help/C/mintupdate/kernels.page:21(p)
+msgid ""
+"The kernel is the central part of the operating system. Among other things, "
+"it is responsible for hardware support."
+msgstr ""
+"Ядро - это центральная часть операционной системы. Среди прочего, оно "
+"отвечает за поддержку аппаратного обеспечения."
+
+#: doc/help/C/mintupdate/kernels.page:25(p)
+msgid ""
+"From a security point of view, it is important to apply kernel updates."
+msgstr "С точки зрения безопасности, важно устанавливать обновления ядра."
+
+#: doc/help/C/mintupdate/kernels.page:27(p)
+msgid ""
+"A kernel regression could however affect your ability to connect to the "
+"Internet, to start your desktop environment or even to boot the operating "
+"system."
+msgstr ""
+"Однако регрессия ядра может повлиять на вашу способность подключения к "
+"Интернету, запуска среды рабочего стола или даже для загрузки операционной "
+"системы."
+
+#: doc/help/C/mintupdate/kernels.page:29(p)
+msgid ""
+"For this reason it is important to be cautious when applying kernel updates "
+"and to know how to revert them when something goes wrong."
+msgstr ""
+"В связи с этим, важно быть осторожным при применении обновлений ядра и "
+"знать, как отменить их, если что-то пойдет не так."
+
+#: doc/help/C/mintupdate/kernels.page:32(title)
+msgid "Multiple kernels can be installed"
+msgstr "Могут быть установлены несколько ядер"
+
+#: doc/help/C/mintupdate/kernels.page:34(p)
+msgid ""
+"When you apply an update, you replace the old version of the software with "
+"the new version."
+msgstr ""
+"При установке обновления, вы заменяете старую версию программного "
+"обеспечения на новую."
+
+#: doc/help/C/mintupdate/kernels.page:36(p)
+msgid ""
+"Things are different when it comes to kernels. When you apply a \"kernel "
+"update\", you don't actually update the kernel, you install a new kernel "
+"alongside the existing one."
+msgstr ""
+"Все меняется, когда дело доходит до ядра. При установке «обновление ядра», "
+"вы на самом деле не обновляете ядро, а устанавливаете новое ядро ​​вместе с "
+"существующим."
+
+#: doc/help/C/mintupdate/kernels.page:38(p)
+msgid ""
+"Every time you apply a kernel update, you install a new kernel on the "
+"system, without removing the old ones."
+msgstr ""
+"Каждый раз, когда вы устанавливаете обновления ядра, в системе "
+"устанавливается новое ядро без удаления старых."
+
+#: doc/help/C/mintupdate/kernels.page:40(p)
+msgid "At boot time, the computer selects the most recent one."
+msgstr "Во время загрузки компьютер выбирает последнее установленное ядро."
+
+#: doc/help/C/mintupdate/kernels.page:45(title)
+msgid "Identifying the current kernel"
+msgstr "Определение текущего ядра"
+
+#: doc/help/C/mintupdate/kernels.page:47(p)
+msgid ""
+"If you want to know which kernel you are currently using, open a terminal "
+"and type:"
+msgstr ""
+"Если вы хотите знать, какое ядро сейчас используется, откройте терминал и "
+"введите:"
+
+#: doc/help/C/mintupdate/kernels.page:49(screen)
+#, no-wrap
+msgid "uname -a"
+msgstr "uname -a"
+
+#: doc/help/C/mintupdate/kernels.page:54(title)
+msgid "Installing and removing kernels"
+msgstr "Установка и удаление ядер"
+
+#: doc/help/C/mintupdate/kernels.page:56(p)
+msgid "You can install and remove kernels from the Update Manager."
+msgstr "Вы можете устанавливать и удалять ядра из Менеджера обновлений."
+
+#: doc/help/C/mintupdate/kernels.page:58(p)
+msgid "Select \"Tools\" -&gt; \"Kernel Manager\" in the menu."
+msgstr ""
+
+#: doc/help/C/mintupdate/kernels.page:60(p)
+msgid ""
+"You cannot remove the kernel you are currently using. To remove it, you need "
+"to reboot and select a different kernel to boot with."
+msgstr ""
+"Вы не можете удалить ядро, которое сейчас используется. Чтобы удалить его, "
+"нужно перезагрузить компьютер и выбрать другое ядро для загрузки."
+
+#: doc/help/C/mintupdate/kernels.page:65(title)
+msgid "Selecting a kernel"
+msgstr "Выбор ядра"
+
+#: doc/help/C/mintupdate/kernels.page:67(p)
+msgid ""
+"You can have multiple kernels installed, but you can only run one kernel at "
+"a time."
+msgstr ""
+"Можно установить несколько ядер, но загрузиться и работать может только одно "
+"ядро."
+
+#: doc/help/C/mintupdate/kernels.page:69(p)
+msgid ""
+"When you boot the computer, the very first screen is called the Grub menu. "
+"This menu allows you to choose operating systems but you can also use it to "
+"select a kernel."
+msgstr ""
+"При загрузке компьютера, самый первый экран называется меню Grub. Это меню "
+"позволяет выбрать операционную систему, но вы также можете использовать его, "
+"чтобы выбрать ядро."
+
+#: doc/help/C/mintupdate/kernels.page:71(p)
+msgid ""
+"If you only have one operating system installed, your boot sequence might "
+"skip the Grub menu. To force the Grub menu to show, boot the computer and "
+"keep pressing the left <key>Shift</key> key."
+msgstr ""
+"Если у вас установлена только одна операционная система, последовательность "
+"загрузки может пропустить меню Grub. Для отображения меню Grub, "
+"перезагрузите компьютер, нажмите и удерживайте левую клавишу "
+"<key>Shift</key>."
+
+#: doc/help/C/mintupdate/kernels.page:73(p)
+msgid ""
+"To select a kernel, choose \"Advanced options\" in the Grub menu. You should "
+"see all the kernels currently installed. Select the one you want to use and "
+"your computer will boot with that one."
+msgstr ""
+"Чтобы выбрать ядро, выберете \"Дополнительные параметры\" в меню Grub. Вы "
+"увидите все установленные ядра. Выберите то, которое вы хотите использовать, "
+"и ваш компьютер будет загружаться с ним."
+
+#: doc/help/C/mintupdate/kernels.page:78(title)
+msgid "Checking the DKMS status"
+msgstr "Проверка статуса DKMS"
+
+#: doc/help/C/mintupdate/kernels.page:80(p)
+msgid ""
+"The kernel includes all open source drivers and these usually work very "
+"well. Proprietary drivers (NVIDIA, AMD, Broadcom, etc.) are not included and "
+"they need to compile themselves against every kernel you install. This is "
+"done via a mechanism called DKMS."
+msgstr ""
+"Ядро включает в себя все драйверы с открытым исходным кодом, и они, как "
+"правило, работают очень хорошо. Проприетарные драйверы (NVIDIA, AMD, "
+"Broadcom…и т.д.) не включены и их нужно скомпилировать самостоятельно для "
+"каждого ядра, которое вы устанавливаете. Это делается с помощью механизма, "
+"называемого DKMS."
+
+#: doc/help/C/mintupdate/kernels.page:82(p)
+msgid ""
+"If a proprietary driver isn't properly recompiled with DKMS for one of your "
+"kernels, it will not function correctly with that kernel."
+msgstr ""
+"Если для одного из ядер проприетарный драйвер перекомпилирован не правильно "
+"с применением DKMS, то он не будет правильно работать с этим ядром."
+
+#: doc/help/C/mintupdate/kernels.page:84(p)
+msgid ""
+"After installing or removing a kernel, you can check your DKMS status, to "
+"make sure all proprietary drivers are properly installed for each of your "
+"kernels with the following command:"
+msgstr ""
+"После установки или удаления ядра, вы можете проверить свой DKMS статус, "
+"чтобы убедиться, что все проприетарные драйверы правильно установлены для "
+"каждого ядра, с помощью следующей команды:"
+
+#: doc/help/C/mintupdate/kernels.page:86(screen)
+#, no-wrap
+msgid "dkms status"
+msgstr "статус dkms"
+
+#: doc/help/C/mintupdate/kernels.page:88(p)
+msgid ""
+"New kernel series usually become available before proprietary drivers "
+"support them via DKMS. If you are using proprietary drivers, it is "
+"recommended to stick to kernel updates and not to install kernels from "
+"series which are newer than the series of the recommended kernels."
+msgstr ""
+"Новые серии ядер, как правило, становятся доступными прежде чем "
+"проприетарные драйверы поддерживают их через DKMS. Если вы используете "
+"проприетарные драйверы, рекомендуется придерживаться обновлений ядра и не "
+"устанавливать ядра из серии, которая новее, чем серия рекомендуемого ядра."
+
+#: doc/help/C/mintupdate/kernels.page:93(title)
+msgid "Reverting a kernel update"
+msgstr "Отмена обновления ядра"
+
+#: doc/help/C/mintupdate/kernels.page:95(p)
+msgid ""
+"If something doesn't work with the latest kernel you installed (or the "
+"latest kernel update), reboot, select the kernel you were previously using, "
+"remove the new kernel and reboot again."
+msgstr ""
+"Если что-то не работает с последней установленной версией ядра (или "
+"обновления ядра), выполните перезагрузку, выберите ядро, которое вы "
+"использовали ранее, удалите новое ядро и перезагрузите компьютер."
+
+#: doc/help/C/mintupdate/index.page:18(title)
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:830
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:993
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:316
+#: generate_desktop_files:20 generate_desktop_files:108
+#: usr/share/linuxmint/mintupdate/main.ui.h:1
+msgid "Update Manager"
+msgstr "Менеджер обновлений"
+
+#: doc/help/C/mintupdate/index.page:20(p)
+msgid ""
+"The Update Manager provides your operating system with software and security "
+"updates."
+msgstr ""
+"Менеджер обновлений обеспечивает вашу операционную систему обновлениями "
+"программного обеспечения и безопасности системы."
+
+#: doc/help/C/mintupdate/index.page:22(p)
+msgid ""
+"Updates are important because they keep your computer safe, eliminate bugs "
+"and can even add new features to your operating system."
+msgstr ""
+"Обновления важны, поскольку они обеспечивают безопасность вашего компьютера, "
+"устраняют ошибки и даже могут добавить новые функции для вашей операционной "
+"системы."
+
+#: doc/help/C/mintupdate/index.page:24(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions', "
+"which can break things which worked well before."
+msgstr ""
+"К сожалению, иногда они также могут привести за собой и новые проблемы, под "
+"названием «регрессии», которые могут сломать то, что хорошо работало раньше."
+
+#: doc/help/C/mintupdate/index.page:26(p)
+msgid ""
+"To keep your computer safe and in good working condition, it is recommended "
+"to apply all available updates and to set up system snapshots, so that you "
+"can restore your system in case something goes wrong."
+msgstr ""
+"Чтобы ваш компьютер был в безопасности и в хорошем рабочем состоянии, "
+"рекомендуется применять все доступные обновления и настроить создание "
+"снимков системы, чтобы вы могли восстановить свою систему, если что-то "
+"пойдет не так."
+
+#: doc/help/C/mintupdate/index.page:29(title)
+msgid "Core concepts"
+msgstr "Основные понятия"
+
+#: doc/help/C/mintupdate/index.page:31(p)
+msgid "This section explains the core concepts related to software updates."
+msgstr ""
+"В этом разделе находится информация об основных понятиях, связанных с "
+"обновлением программного обеспечения."
+
+#: doc/help/C/mintupdate/index.page:37(p)
+msgid "This section explains kernel updates."
+msgstr "В этом разделе находится информация об обновлении ядра."
+
+#: doc/help/C/mintupdate/index.page:41(title)
+msgid "Advanced techniques"
+msgstr "Дополнительные способы"
+
+#: doc/help/C/mintupdate/index.page:43(p)
+msgid "This section explains advanced techniques."
+msgstr "В этом разделе описаны дополнительные способы."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: doc/help/C/mintupdate/index.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Gleb Shipitsyn https://launchpad.net/~nyanko-sensei\n"
+"  gm10 https://launchpad.net/~gm10"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:320
+msgid ""
+"Warning: This is an unsupported kernel meant for testing purposes. Consider "
+"switching to a supported kernel instead."
+msgstr ""
+"Предупреждение: Это неподдерживаемое ядро системы, предназначенное для "
+"тестирования. Рекомендуется переключиться на поддерживаемое ядро."
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:405
+#, python-format
+msgid "Linux kernel %s"
+msgstr "Ядро Linux %s"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:406
+msgid "The Linux kernel."
+msgstr "Ядро Linux."
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:409
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:7
+msgid ""
+"The Linux kernel provides the interface that allows your software to "
+"interact with your hardware. It includes open-source device and filesystem "
+"drivers, and proprietary drivers need to support it. Because of that, a new "
+"kernel can affect all areas of your system."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:412
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:8
+msgid ""
+"Should you experience problems after installing or updating a kernel, you "
+"can reboot using another kernel. This can be done via the corresponding "
+"function in Kernel Manager's options menu, or via the GRUB boot loader's "
+"boot menu (access it by rebooting and pressing Esc once after the BIOS boot "
+"screen disappears, then select the advanced options to access your previous "
+"kernel). After the reboot, remove the problematic kernel using Kernel "
+"Manager."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:417
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:9
+msgid ""
+"If you configured system snapshots, you can also use Timeshift to restore a "
+"previous known working configuration."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:419
+msgid ""
+"Be aware that this kernel update will be installed in addition to your "
+"current kernel. If you do not have Update Manager's Automatic Maintenance "
+"service enabled, be sure to manage the amount of kernels you keep installed "
+"for they take up a lot of disk space."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel-manager.py:30
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:181
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:205
+#: generate_desktop_files:94 usr/share/linuxmint/mintupdate/preferences.ui.h:27
+msgid "Preferences"
+msgstr "Параметры"
+
+#: usr/lib/linuxmint/mintUpdate/kernel-manager.py:72
+msgid "Back"
+msgstr "Назад"
+
+#: usr/lib/linuxmint/mintUpdate/mintupdate-cli.py:153
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:85
+#, python-format
+msgid "Before updating: %s"
+msgstr "Перед обновлением: %s"
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:27
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:86
+msgid "Reboot required"
+msgstr "Требуется перезагрузка"
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:28
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:87
+msgid ""
+"You have installed updates that require a reboot to take effect, please "
+"reboot your system as soon as possible."
+msgstr ""
+"Были установлены обновления, требующие перезагрузки. Перезагрузите компьютер "
+"как будет возможность."
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:33
+msgid "Automatic updates error"
+msgstr "Ошибка автоматического обновления"
+
+#: usr/lib/linuxmint/mintUpdate/notifier.py:34
+#, python-format
+msgid ""
+"The automatic update service returned an error, for details please check the "
+"log file at %s"
+msgstr ""
+"Служба автоматического обновления вернула ошибку,  для просмотра "
+"подробностей проверьте файл журнала %s"
+
+#: usr/lib/linuxmint/mintUpdate/common/ChangelogWindow.py:61
+#: usr/lib/linuxmint/mintUpdate/main/ChangelogRetrieverThread.py:41
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:293
+msgid "No changelog available"
+msgstr "Журнал изменений недоступен"
+
+#: usr/lib/linuxmint/mintUpdate/common/ChangelogWindow.py:69
+#, python-format
+msgid "Changelog for %s"
+msgstr "Журнал изменений для %s"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:101
+msgid "Mainline Kernel Download"
+msgstr "Загрузка ядра системы основной ветви"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:111
+#, python-brace-format
+msgid "Downloading {filename}…"
+msgstr "Загружается {filename}…"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:130
+msgid "Download canceled"
+msgstr "Загрузка отменена"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:147
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:504
+#, python-brace-format
+msgid "Failed to download {url}"
+msgstr "Не удалось загрузить {url}"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:151
+msgid "Verifying downloaded files…"
+msgstr "Проверка загруженных файлов…"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:163
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:519
+msgid "Checksum verification of downloaded files failed"
+msgstr "Контрольные суммы для загруженные файлов не сходятся"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:187
+msgid "Mainline Kernel Installation"
+msgstr "Установка ядра основной ветви"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:192
+msgid "Installing…"
+msgstr "Установка…"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:208
+msgid "Error during installation"
+msgstr "Ошибка в ходе установки"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernelInstaller.py:213
+msgid "Installation complete"
+msgstr "Установка завершена"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:22
+msgid "Ubuntu mainline kernel"
+msgstr "Ядро убунту основной ветви"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:172
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:179
+msgid "Failed to retrieve daily mainline builds list."
+msgstr "Не удалось загрузить список ежедневных сборок основной ветви."
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:250
+msgid "Failed to retrieve mainline kernel support status."
+msgstr "Не удалось получить статус поддержки ядра основной ветви."
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:257
+msgid "Failed to parse mainline kernel support status."
+msgstr "Не удалось считать статус поддержки ядра основной ветви."
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:309
+msgid "Failed to retrieve mainline kernel list."
+msgstr "Не удалось загрузить список ядер основной ветви."
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:316
+msgid "Failed to parse mainline kernel list."
+msgstr "Не удалось считать список ядер основной ветви."
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:407
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:426
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:436
+#, python-brace-format
+msgid "Mainline kernel {version} is unavailable (failed to build)"
+msgstr "Ядро основной ветви {version} недоступно (не удалось собрать)"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:421
+#, python-brace-format
+msgid "Failed to retrieve mainline kernel {version} data"
+msgstr "Не удалось загрузить данные ядра основной ветви {version}"
+
+#: usr/lib/linuxmint/mintUpdate/common/MainlineKernels.py:433
+#, python-brace-format
+msgid "Failed to parse mainline kernel {version} data"
+msgstr "Не удалось считать данные ядра основной ветви {version}"
+
+#: usr/lib/linuxmint/mintUpdate/common/dialogs.py:13
+#: usr/lib/linuxmint/mintUpdate/kernel/InstallKernelThread.py:191
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:490
+msgid "Cannot Proceed"
+msgstr "Невозможно продолжить"
+
+#: usr/lib/linuxmint/mintUpdate/common/dialogs.py:14
+msgid ""
+"Another process is currently using the package management system. Please "
+"wait for it to finish and then try again."
+msgstr ""
+"Другой процесс в настоящее время использует систему управления пакетами. "
+"Подождите, пока он завершится, а затем повторите попытку."
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:31
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:34
+msgid "Date"
+msgstr "Дата"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:36
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:247
+msgid "Package"
+msgstr "Пакет"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:38
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:131
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:248
+msgid "Old Version"
+msgstr "Старая версия"
+
+#: usr/lib/linuxmint/mintUpdate/main/HistoryWindow.py:41
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:133
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:249
+msgid "New Version"
+msgstr "Новая версия"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:51
+msgid "Yes"
+msgstr "Да"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:52
+msgid "No"
+msgstr "Нет"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:54
+msgid "OK"
+msgstr "OK"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:104
+msgid "distribution"
+msgstr "дистрибутив"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:107
+#, python-brace-format
+msgid "Your {release_name} is only supported until {eol_date}."
+msgstr "Ваш {release_name} поддерживается только до {eol_date}."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:108
+msgid ""
+"Your system will remain functional after that date, but the official "
+"software repositories will become unavailable along with any updates "
+"including security updates."
+msgstr ""
+"После наступления этой даты ваша система будет работать, но официальные "
+"репозитории программного обеспечения станут недоступны вместе с любыми "
+"обновлениями, включая обновления безопасности."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:110
+msgid ""
+"You should perform an upgrade to or a clean install of a newer version of "
+"your distribution before that happens."
+msgstr ""
+"Прежде чем это произойдет, вы должны выполнить обновление или чистую "
+"установку более новой версии вашего дистрибутива."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:114
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:316
+#, python-format
+msgid "For more information visit %s."
+msgstr "Для получения дополнительной информации посетите %s."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:116
+msgid "DISTRIBUTION END OF LIFE WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ О ЗАВЕРШЕНИИ ЖИЗНЕННГОГО ЦИКЛА ДИСТРИБУТИВА"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:242
+msgid "Do you want to switch to a local mirror?"
+msgstr "Переключиться на локальное зеркало?"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:243
+msgid "Local mirrors are usually faster."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:248
+msgid "Please switch to another mirror"
+msgstr "Переключитесь на другое зеркало"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:276
+#, python-format
+msgid "%s is unreachable."
+msgstr "%s не доступно."
+
+#. TRANSLATORS: this refers to the "Main" mirror type as seen on the software-sources
+#. tool's Official Repositories tab, please use the same translation
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:284
+msgid "The configured main mirror is out of date."
+msgstr ""
+
+#. TRANSLATORS: this refers to the "Base" mirror type as seen on the software-sources
+#. tool's Official Repositories tab, please use the same translation
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:288
+msgid "The configured base mirror is out of date."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:313
+msgid "New Linux Mint point release available!"
+msgstr "Новый минорный релиз Linux Mint доступен!"
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:315
+#, python-format
+msgid "You can upgrade to %s from the Edit menu."
+msgstr "Вы можете обновиться до %s из меню редактирования."
+
+#: usr/lib/linuxmint/mintUpdate/main/Infobars.py:323
+#, python-format
+msgid "You can now upgrade to %s"
+msgstr "Вы можете обновиться до %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:76
+msgid "Creating system snapshot"
+msgstr "Создание снимка системы"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:94
+msgid "Creating system snapshot:"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:111
+msgid "Timeshift returned an error"
+msgstr "Timeshift возвратил ошибку"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:116
+msgid "Removing old system snapshot:"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:126
+#, python-format
+msgid "System snapshot failed: %s"
+msgstr "Снимок системы неудался: %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:152
+msgid "Installation canceled"
+msgstr "Установка отменена"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:155
+msgid "Installing updates"
+msgstr "Установка обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:268
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:271
+msgid "Could not install the updates"
+msgstr "Не удаётся установить обновления"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:285
+msgid "Automated System Snapshot"
+msgstr "Автоматический снимок системы"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:286
+msgid ""
+"Do you want a system snapshot to be created before installing the updates?"
+msgstr "Вы хотите создать снимок системы перед установкой обновлений?"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:297
+msgid "This upgrade will trigger additional changes"
+msgstr "Данное обновление приведёт к дополнительным изменениям"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:306
+msgid "The following packages will be removed:"
+msgstr "Будут удалены следующие пакеты:"
+
+#: usr/lib/linuxmint/mintUpdate/main/InstallThread.py:335
+msgid "The following packages will be installed:"
+msgstr "Будут установлены следующие пакеты:"
+
+#: usr/lib/linuxmint/mintUpdate/main/LogView.py:13
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:183
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:271
+#: generate_desktop_files:101 usr/share/linuxmint/mintupdate/shortcuts.ui.h:13
+msgid "Log View"
+msgstr "Просмотр Журнала"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:121
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:246
+msgid "Type"
+msgstr "Тип"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:129
+msgid "Name"
+msgstr "Название"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:135
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:251
+msgid "Size"
+msgstr "Размер"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:137
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:250
+msgid "Origin"
+msgstr "Источник"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:170
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:909
+#: generate_desktop_files:59
+msgid "Show"
+msgstr "Показать"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:173
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:90
+#: generate_desktop_files:73 usr/share/linuxmint/mintupdate/main.ui.h:4
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:3
+msgid "Refresh"
+msgstr "Проверить обновления"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:176
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:267
+#: generate_desktop_files:80 generate_desktop_files:130
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:1
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:11
+msgid "Kernel Manager"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:179
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:269
+#: generate_desktop_files:87 usr/share/linuxmint/mintupdate/history.ui.h:1
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:12
+msgid "History of Updates"
+msgstr "История обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:185
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:199
+msgid "Quit"
+msgstr "Выход"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:195
+msgid "_File"
+msgstr "_Файл"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:198
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:913
+#: generate_desktop_files:66 usr/share/linuxmint/mintupdate/shortcuts.ui.h:2
+msgid "Hide"
+msgstr "Скрыть"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:202
+msgid "_Edit"
+msgstr "_Правка"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:207
+msgid "Software Sources"
+msgstr "Источники программ"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:210
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:11
+msgid "System Snapshots"
+msgstr "Снимки системы"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:235
+#, python-format
+msgid "Upgrade to %s"
+msgstr "Обновить до %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:254
+msgid "_View"
+msgstr "_Вид"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:257
+msgid "Visible Columns"
+msgstr "Показывать столбцы"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:258
+msgid "Show Descriptions"
+msgstr "Показывать описания"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:262
+msgid "_Tools"
+msgstr "_Инструменты"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:274
+msgid "_Help"
+msgstr "_Справка"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:277
+msgid "Contents"
+msgstr "Содержимое"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:279
+msgid "Keyboard Shortcuts"
+msgstr "Комбинации клавиш"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:281
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:992
+msgid "About"
+msgstr "О программе"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:461
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:617
+msgid "No updates selected"
+msgstr "Нет выбранных обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:464
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgid_plural "%(selected)d updates selected (%(size)s)"
+msgstr[0] "Выбрано %(selected)d обновление (%(size)s)"
+msgstr[1] "Выбрано %(selected)d обновления (%(size)s)"
+msgstr[2] "Выбрано %(selected)d обновлений (%(size)s)"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:747
+msgid "Downloading changelog…"
+msgstr "Загрузка журнала изменений…"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:778
+msgid "This update affects the following installed package:"
+msgid_plural "This update affects the following installed packages:"
+msgstr[0] "Это обновление затрагивает следующий установленный пакет:"
+msgstr[1] "Это обновление затрагивает следующие установленные пакеты:"
+msgstr[2] "Это обновление затрагивает следующие установленные пакеты:"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:783
+#, python-format
+msgid "Download size: %s"
+msgstr "Размер загружаемых данных: %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:784
+#, python-format
+msgid "Installed size: %s"
+msgstr "Размер после установки: %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:796
+msgid "Ignore the current update for this package"
+msgstr "Игнорировать текущее обновление этого пакета"
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:799
+msgid "Ignore all updates for this package"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/MintUpdate.py:808
+#, python-format
+msgid "Are you sure you want to ignore %s?"
+msgstr ""
+
+#. TRANSLATORS: This is a tag added to package names on the ignore list
+#. if a package is on hold in apt - see `man apt-mark`. In case of doubt
+#. leave this untranslated.
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:37
+msgid "[apt hold]"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:89
+msgid "General"
+msgstr "Общие"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:91
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:46
+msgid "Ignore List"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:92
+msgid "Automation"
+msgstr "Автоматизация"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:93
+msgid "Expert"
+msgstr "Эксперт"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:103
+msgid ""
+"To use this option you must have a version of libappindicator and the "
+"corresponding GObject introspection library installed."
+msgstr ""
+"Чтобы использовать эту опцию у Вас должны быть установлены libappindicator и "
+"библиотека GObject."
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:105
+msgid ""
+"Your desktop environment may further require an extension to be installed to "
+"show the indicator."
+msgstr ""
+"Вашей среде рабочего стола может потребоваться установленное расширение "
+"чтобы отображать индикатор."
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/share/linuxmint/mintupdate/main.ui.h:12
+msgid "Packages"
+msgstr "Пакеты"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/share/linuxmint/mintupdate/main.ui.h:13
+msgid "Description"
+msgstr "Описание"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:117
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:16
+#: usr/share/linuxmint/mintupdate/main.ui.h:14
+msgid "Changelog"
+msgstr "Журнал изменений"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:140
+msgid "Requires Software Manager (mintinstall) to be installed"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:145
+msgid "Ignored Updates"
+msgstr "Игнорируемые обновления"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:377
+#, python-format
+msgid "Next Run: %s"
+msgstr "Следующий запуск: %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:380
+#, python-format
+msgid "Last Run: %s"
+msgstr "Последний запуск: %s"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:404
+msgid ""
+"Timeshift must be installed and set up before automated system snapshots can "
+"be enabled."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:464
+msgid "Ignore an Update"
+msgstr "Игнорировать обновление"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:465
+msgid ""
+"Please specify the source package name of the update to ignore (wildcards "
+"are supported) and optionally the version:"
+msgstr ""
+"Укажите имя исходного пакета обновления, которое следует игнорировать "
+"(поддерживаются подстановочные знаки), и, при необходимости, версию:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:475
+msgid "Name:"
+msgstr "Название:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:477
+msgid "Version:"
+msgstr "Версия:"
+
+#: usr/lib/linuxmint/mintUpdate/main/Preferences.py:479
+msgid "(optional)"
+msgstr "(не обязательно)"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:80
+msgid "Run 'apt update' in a terminal window to address this"
+msgstr "Запустите «apt update» в окне терминала, чтобы решить эту проблему"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:131
+msgid "Kernel update"
+msgstr "Обновление ядра системы"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:134
+msgid "Security update"
+msgstr "Обновление безопасности"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:137
+msgid ""
+"Unstable software. Only apply this update to help developers beta-test new "
+"software."
+msgstr ""
+"Нестабильные программы. Принимая эти обновления, оказывается помощь "
+"разработчикам, которым нужно тестировать программы."
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:141
+msgid "Software update"
+msgstr "Обновление программ"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:145
+msgid "3rd-party update"
+msgstr "Обновления сторонних программ"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:185
+msgid "Your distribution has reached end of life and is no longer supported"
+msgstr ""
+"Ваш дистрибутив достиг конца жизненного цикла и больше не поддерживается"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:190
+#: usr/share/linuxmint/mintupdate/main.ui.h:11
+msgid "Your system is up to date"
+msgstr "Ваша система не требует обновления"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:204
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:321
+#: usr/share/linuxmint/mintupdate/main.ui.h:6
+msgid "Could not refresh the list of updates"
+msgstr "Невозможно получить список обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:245
+msgid "Checking for updates"
+msgstr "Проверка наличия обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:265
+#: usr/share/linuxmint/mintupdate/main.ui.h:8
+msgid "Update Manager needs to be updated"
+msgstr "Менеджер обновлений нуждается в обновлении"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:275
+msgid "Retrieving changelog…"
+msgstr "Загружается журнал изменений…"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:311
+#, python-format
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] "Доступно %d обновление"
+msgstr[1] "Доступно %d обновления"
+msgstr[2] "Доступно %d обновлений"
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:327
+msgid "APT's cache or configuration are corrupt."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:328
+msgid ""
+"Do not install or update anything, it could break your operating system!"
+msgstr ""
+"Ничего не устанавливайте и не обновляйте, так как это может повредить "
+"операционную систему!"
+
+#. TRANSLATORS: "Delete cached repository indexes" is a button in the software-sources tool, please use the same translation here
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:330
+msgid ""
+"Open Software Sources and try to either delete cached repository indexes via "
+"that maintenance option or select different mirrors."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/main/RefreshThread.py:331
+msgid "APT error:"
+msgstr "Ошибка APT:"
+
+#. TRANSLATORS: the abbreviation of gigabyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:20
+msgid "GB"
+msgstr "ГБ"
+
+#. TRANSLATORS: the abbreviation of megabyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:23
+msgid "MB"
+msgstr "МБ"
+
+#. TRANSLATORS: the abbreviation of kilobyte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:26
+msgid "KB"
+msgstr "КБ"
+
+#. TRANSLATORS: the abbreviation of byte
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:28
+msgid "B"
+msgstr "Б"
+
+#: usr/lib/linuxmint/mintUpdate/main/functions.py:66
+msgid ""
+"The automatic update service is enabled on this system. Do you want it to "
+"use your modified ignore list?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:17
+msgid "Bug Tracker"
+msgstr "Отслеживание ошибок"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:18
+msgid "Known Security Issues (CVE)"
+msgstr "Известные уязвимости (CVE)"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:19
+msgid ""
+"<b>Warning:</b> This is an unsupported kernel meant for testing purposes."
+msgstr ""
+"<b>Предупреждение:</b> Это неподдерживаемое ядро, предназначенное для "
+"тестирования"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:141
+#: usr/lib/linuxmint/mintUpdate/kernel/MarkKernelRow.py:13
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:49
+msgid "Remove"
+msgstr "Удалить"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:142
+msgid "Queue Removal"
+msgstr "Удаление очереди"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:144
+msgid "This kernel cannot be removed because it is currently in use."
+msgstr ""
+"Данное ядро не может быть удалено, поскольку оно используется в настоящий "
+"момент."
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:147
+#: usr/lib/linuxmint/mintUpdate/kernel/MarkKernelRow.py:15
+msgid "Install"
+msgstr "Установить"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:148
+msgid "Queue Installation"
+msgstr "Создание очереди"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:187
+#, python-format
+msgid "Are you sure you want to remove the %s kernel?"
+msgstr "Вы уверены, что хотите удалить ядро %s?"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:189
+#, python-format
+msgid "Are you sure you want to install the %s kernel?"
+msgstr "Вы уверены, что хотите установить ядро %s?"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:206
+msgid ""
+"Kernel can be removed automatically.\n"
+"Click to add automatic removal protection."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelRow.py:209
+msgid ""
+"Kernel is protected from automatic removal.\n"
+"Click to remove automatic removal protection."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:134
+msgid "Set Default Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:135
+msgid "Reboot to Default Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:136
+msgid "Reboot to Current Kernel…"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:137
+msgid "Reboot to Another Kernel…"
+msgstr "Перезагрузиться с другим ядром…"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:232
+msgid "Active"
+msgstr "Активно"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:236
+msgid "Installed"
+msgstr "Установлено"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:238
+msgid "(Pre-release)"
+msgstr "Предрелиз"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:240
+msgid "(Mainline)"
+msgstr "(Основная ветвь)"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:312
+msgid "End of Life"
+msgstr "Конец поддержки"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:313
+msgid "Superseded"
+msgstr "Устарело"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:314
+msgid "Unsupported"
+msgstr "Не поддерживаются"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:315
+msgid "Status Unknown"
+msgstr "Статус неизвестен"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:316
+msgid "Supported until"
+msgstr "Поддерживается до"
+
+#. TRANSLATORS: a mainline kernel version that gets built every day
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:318
+msgid "Daily build"
+msgstr "Ежедневная сборка"
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:320
+msgid "Mainline"
+msgstr ""
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:322
+msgid "Stable"
+msgstr ""
+
+#. TRANSLATORS: kernel.org kernel status tag, may be better left untranslated but I leave that to your judgement
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:324
+msgid "Longterm"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:405
+msgid "You are currently using the following kernel:"
+msgstr "В данный момент используется следующее ядро системы:"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:412
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:427
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:18
+msgid "Select the kernel to reboot to:"
+msgstr "Выберите ядро для загрузки:"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:428
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:19
+msgid "Reboot to Selected Kernel Now"
+msgstr "Перезагрузиться с выбранным ядром сейчас"
+
+#. TRANSLATORS: GRUB_DEFAULT=saved and the /etc/default/grub path must not be translated
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:433
+msgid ""
+"Select the kernel the system with with by default.\n"
+"GRUB_DEFAULT=saved must be set in /etc/default/grub."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:435
+msgid "Set Selected Kernel as Default Kernel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:457
+msgid "Reboot to default kernel now?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:463
+#, python-brace-format
+msgid "Reboot to kernel {selected_kernel} now?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:491
+msgid "Failed to configure selected kernel with GRUB"
+msgstr "Не удалось настроить выбранное ядро посредствам GRUB"
+
+#: usr/lib/linuxmint/mintUpdate/kernel/KernelWindow.py:609
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:14
+msgid "Kernel installation/removal in progress"
+msgstr "Установка/удаление ядра в процессе"
+
+#: generate_desktop_files:21
+msgid "Show and install available updates"
+msgstr "Показать и установить доступные обновления"
+
+#: generate_desktop_files:131
+msgid "Install and remove kernels"
+msgstr ""
+
+#: generate_desktop_files:148
+msgid "Update and Kernel Manager"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:2
+#: usr/share/linuxmint/mintupdate/main.ui.h:7
+msgid "Refreshing the list of updates"
+msgstr "Обновляется список обновлений"
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:3
+msgid "Right click an entry to show the changelog"
+msgstr ""
+"Щелкните правой кнопкой мыши на запись, чтобы отображить журнал изменений"
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:4
+msgid "Close"
+msgstr "Выход"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:2
+msgid "Kernel flavor:"
+msgstr "Сборка ядра:"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:3
+msgid "Perform Queued Actions…"
+msgstr "Выполнить задачи в очереди…"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:4
+msgid "Remove Kernels…"
+msgstr "Удалить ядра…"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:5
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:6
+msgid "Proceed with caution"
+msgstr "Действуйте с осторожностью"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:10
+msgid "Do not show this message again"
+msgstr "Больше не показывать это сообщение"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:11
+msgid "Help"
+msgstr "Справка"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:12
+msgid "Continue"
+msgstr "Далее"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:13
+msgid "Refreshing the list of kernels"
+msgstr "Обновляется список ядер"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:15
+msgid "Please confirm the following actions:"
+msgstr "Подтвердите следующие действия:"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:16
+msgid "Cancel"
+msgstr "Отменить"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:17
+msgid "Apply"
+msgstr "Применить"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:20
+msgid ""
+"This will fail if /boot/grub/grub.cfg does not belong to your currently "
+"active boot loader or if GRUB cannot write to the environment block, such as "
+"when it is stored on an MDRAID or LVM device."
+msgstr ""
+"Возникнет ошибка, если файл /boot/grub/grub.cfg не отностится к Вашему "
+"текущему активному загрузчику или если GRUB не может записытвать данные в "
+"блок среды (environment block), например когда он находится на массиве "
+"MDRAID или на LVM-устройстве."
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:2
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:6
+msgid "Clear"
+msgstr "Очистить"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:3
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:7
+msgid "Select All"
+msgstr "Выбрать всё"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:5
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:4
+msgid "Install Updates"
+msgstr "Установить обновления"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:9
+msgid "Update and Restart Update Manager"
+msgstr "Обновить и перезапустить Менеджер обновлений"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:10
+msgid "Apply self-updates automatically"
+msgstr "Применять собственные обновления автоматически"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:1
+msgid ""
+"The options on this page can be harmful for your system and are only meant "
+"for expert users. Do not use them without a very good understanding of the "
+"implications."
+msgstr ""
+"Опции на этом экране могут быть опасны для вашей системы и рассчитаны только "
+"на опытных пользователей. Не используйте их без хорошего понимания возможных "
+"последствий."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:2
+msgid "Mainline Kernels"
+msgstr "Ядра основной ветви"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:3
+msgid ""
+"The so-called mainline kernels are untested builds of the raw kernel sources "
+"from kernel.org, without the modifications and additional drivers included "
+"in the supported kernels. They are meant for testing purposes and not for "
+"use on production systems."
+msgstr ""
+"Так называемые ядра основной ветви это непротестированные сборки различных "
+"ядер с kernel.org без дополнительных изменений и драйверов, включенных в "
+"поддерживаемых ядрах. Они предназначены для тестирования и их не следует "
+"использовать на производственных системах."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:4
+msgid "Allow installation of mainline kernels"
+msgstr "Разрешить установку ядер основной ветви"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:5
+msgid "Include the latest unreleased series (release candidate)"
+msgstr "Включать последние невыпущенные серии (release candidate)"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:6
+msgid ""
+"Warning: Release candidate kernels are the most likely to cause problems."
+msgstr ""
+"Предупреждение: Ядра со статусом \"release candidate\" скорее всего создадут "
+"проблемы."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:7
+msgid "Include longterm support series"
+msgstr "Включать серии с долгосрочной поддержкой"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:8
+msgid ""
+"Warning: This can noticeably slow down the kernel window due to the amount "
+"of kernels available in some of those series."
+msgstr ""
+"Предупреждение: Эта опция может заметно замедлить работу окна выбора ядер в "
+"связи с большим количеством ядер в этой серии."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:9
+msgid ""
+"Upgrade to the latest released series after the installed series reaches end-"
+"of-life"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:10
+msgid "Kernel Flavors"
+msgstr "Сборки ядер"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:11
+msgid ""
+"By default only the -generic kernel builds are available for installation "
+"since those are best suited for most desktop systems. By checking this "
+"option you enable a dropdown in the kernel window that allows you to choose "
+"other kernel flavors."
+msgstr ""
+"По умолчанию только сборки '-generic' доступны для установки, поскольку в "
+"наибольшей мере подходят для рабочих станций. Включая эту опцию Вы включаете "
+"выпадающий список в окне выбора ядер, который позволит выбирать другие "
+"сборки ядер."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:12
+msgid "Allow installation of different kernel flavors"
+msgstr "Разрешить установку других сборок ядер"
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:13
+msgid ""
+"Note that regardless of the setting the flavor selector shows automatically "
+"when you already have kernels of different flavors installed."
+msgstr ""
+"Заметьте, что несмотря на настройки, выбор сборок будет отображаться "
+"автоматически, если у Вас уже установлены ядра различных сборок."
+
+#: usr/share/linuxmint/mintupdate/preferences.kernels.ui.h:14
+msgid ""
+"Further note that switching to a different flavor can lead to a kernel meta-"
+"package for that flavor getting added to your list of updates."
+msgstr ""
+"Также заметьте, что переключение на другую сборку может привести к тому, что "
+"мета-пакет для этой сборки будет добавлен в ваш список обновлений."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:1
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:2
+msgid "Hide the main window when installing or removing updates or kernels"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:3
+msgid ""
+"If you do not enable the next option as well then you will still have to "
+"close the popup window first before Update Manager's window closes."
+msgstr ""
+"Если Вы не включите следующую опцию, Вам придется закрыть всплывающее окно "
+"прежде чем закроется окно Менеджера обновлений."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:4
+msgid "Close installation/removal popup automatically"
+msgstr "Автоматически закрывать всплывающее окно при установке/удалении"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:5
+msgid "Show desktop notifications"
+msgstr "Показывать уведомления на рабочем столе"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:6
+msgid "Only show a tray icon when updates are available or in case of errors"
+msgstr ""
+"Показывать значок в системном лотке только при наличии обновлений или ошибок"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:7
+msgid ""
+"Use AppIndicator for the tray icon (more limited but supports more desktops)"
+msgstr ""
+"Использовать AppIndicator для отображение значка в трее (меньше "
+"возможностей, но лучше поддержка рабочих столов)"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:8
+msgid "Update details default tab:"
+msgstr "Вкладка по умолчанию для подробностей обновления"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:9
+msgid "Self-Updates"
+msgstr "Собственные обновления"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:10
+msgid ""
+"Apply updates to Update Manager and other priority packages automatically"
+msgstr ""
+"Применять обновления для Мененждера обновлений и других важных пакетов "
+"автоматически"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:12
+msgid ""
+"Automatically create a system snapshot before manually installing updates"
+msgstr ""
+"Автоматически создавать снимок системы перед установкой обновлений вручную"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:13
+msgid "Maximum number of those snapshots to keep:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:14
+msgid "Ask for confirmation before creating a snapshot"
+msgstr "Спрашивать подтверждения перед созданием снимка системы"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:15
+msgid "Refresh Schedule"
+msgstr "Обновить расписание"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:16
+msgid "Enable scheduled refresh of the list of available updates"
+msgstr "Включить обновление списка доступных обновлений по расписанию"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:17
+msgid ""
+"You can disable each refresh type individually by setting its schedule to 0."
+msgstr ""
+"Вы можете отключить обновление каждого типа индивидуально, установив "
+"значение в 0."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:18
+msgid "Recurring refresh every:"
+msgstr "Повторяющиеся обновления каждый(ые):"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:19
+msgid "Hours"
+msgstr "Часа(ов)"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:20
+msgid "Minutes"
+msgstr "Минут(ы)"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:21
+msgid "Initial refresh after:"
+msgstr "Первоначальное обновление через:"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:22
+msgid "Days"
+msgstr "Дня/дней"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:23
+msgid ""
+"The initial refresh time is calculated from application start. The recurring "
+"refresh time is calculated from the time of the last refresh performed by "
+"this application."
+msgstr ""
+"Время первоначального обновление считается с момента запуска приложения. "
+"Время повторяющихся обновлений считается со времени последнего обновления, "
+"выполненого приложением."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:24
+msgid ""
+"A due scheduled refresh will be delayed while the Update Manager window is "
+"open."
+msgstr ""
+"Запланированное обновление будет отложено, если окно Менеджера обновлений "
+"открыто."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:25
+msgid "Software Manager"
+msgstr "Менеджер программ"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:26
+msgid ""
+"Refresh Software Manager's package cache with each scheduled or manual "
+"refresh"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:28
+msgid "Automatic Updates"
+msgstr "Автоматические обновления"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:29
+msgid ""
+"Make sure your system snapshots are properly configured before using this "
+"option."
+msgstr ""
+"Перед использованием этой опции убедитесь, что создание снимков вашей "
+"системы настроено правильно."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:30
+msgid ""
+"With this option all updates are applied automatically on a daily basis via "
+"a system service."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:31
+msgid ""
+"You will be prevented from rebooting or shutting down the system while this "
+"service is running to prevent system corruption."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:32
+msgid "Apply updates automatically"
+msgstr "Устанавливать обновления автоматически"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:33
+msgid "Only include kernel updates"
+msgstr "Включать только обновления ядра системы"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:34
+msgid "Only include security updates"
+msgstr "Включать только обновления безопасности"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:35
+msgid ""
+"Do not update configuration files\n"
+"(use with caution)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:37
+msgid "Export ignore list to /etc/mintupdate.blacklist"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:38
+msgid ""
+"Show a desktop notification if automatic updates failed or require a reboot"
+msgstr ""
+"Показывать уведомление на рабочем столе, если автоматическое обновление "
+"завершилось неудачно или требуется перезагрузка."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:39
+msgid "Allow mainline kernel updates"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:40
+msgid ""
+"Install recommended packages\n"
+"(use with caution)"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:42
+msgid "Create system snapshot"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:43
+msgid "Automatic Maintenance"
+msgstr "Автоматическое обслуживание"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:44
+msgid ""
+"This weekly service removes no longer needed dependencies as well as old "
+"kernel updates. It always leaves at least one older kernel installed and "
+"never removes manually installed kernels."
+msgstr ""
+"Эта еженедельная процедура удаляет более ненужные зависимости, а также "
+"старые обновления ядра. Она всегда оставляет хотя бы одно устаревшее ядро "
+"установленным и никогда не удаляет ядра, установленные вручную."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:45
+msgid "Enable automatic maintenance"
+msgstr "Включить автоматическое обслуживание"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:47
+msgid ""
+"Packages listed here will never receive updates. Use this option to block "
+"updates that you know cause issues on your system."
+msgstr ""
+"Пакеты, перечисленные здесь, никогда не будут получать обновления. "
+"Используйте эту возможность, чтобы заблокировать обновления, которые, по "
+"вашему мнению, могут вызывать проблемы в вашей системе."
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:48
+msgid ""
+"It is recommended to add packages to the ignore list by right-clicking them "
+"in the updates listing."
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:50
+msgid "Add…"
+msgstr "Добавить…"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:1
+msgid "Window"
+msgstr "Окно"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:5
+msgid "Selection"
+msgstr "Выбор"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:8
+msgid "Select Security Updates"
+msgstr "Выбрать обновления безопасности"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:9
+msgid "Select Kernel Updates"
+msgstr "Выбрать обновления ядра"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:10
+msgid "Tools"
+msgstr "Инструменты"

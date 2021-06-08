@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="com.linuxmint.updates.DefaultTab">
+    <value nick="packages" value="0"/>
+    <value nick="description" value="1"/>
+    <value nick="changelog" value="2"/>
+  </enum>
+  <schema id="com.linuxmint.updates" path="/com/linuxmint/updates/">
+    <key type="b" name="hide-window-after-update">
+      <default>false</default>
+      <summary>Whether to hide the main window during (despite the name) an installation</summary>
+    </key>
+    <key type="b" name="automatically-close-update-details">
+      <default>true</default>
+    </key>
+    <key type="b" name="automatic-self-update">
+      <default>false</default>
+      <summary>Automatically apply priority updates</summary>
+    </key>
+    <key type="b" name="hide-systray">
+      <default>false</default>
+    </key>
+    <key type="b" name="use-appindicator">
+      <default>false</default>
+      <summary>Use libappindicator for the status icon, if available</summary>
+    </key>
+    <key type="b" name="default-repo-is-ok">
+      <default>false</default>
+      <summary>Do not suggest to switch to a local mirror</summary>
+    </key>
+    <key type="as" name="blacklisted-packages">
+      <default>[]</default>
+    </key>
+    <key type="b" name="refresh-schedule-enabled">
+      <default>true</default>
+    </key>
+    <key type="x" name="refresh-last-run">
+      <default>0</default>
+    </key>
+    <key type="i" name="refresh-days">
+      <range min="0" max="99"/>
+      <default>0</default>
+    </key>
+    <key type="i" name="refresh-hours">
+      <range min="0" max="23"/>
+      <default>0</default>
+    </key>
+    <key type="i" name="refresh-minutes">
+      <range min="0" max="59"/>
+      <default>10</default>
+    </key>
+    <key type="i" name="autorefresh-days">
+      <range min="0" max="99"/>
+      <default>0</default>
+    </key>
+    <key type="i" name="autorefresh-hours">
+      <range min="0" max="23"/>
+      <default>6</default>
+    </key>
+    <key type="i" name="autorefresh-minutes">
+      <range min="0" max="59"/>
+      <default>0</default>
+    </key>
+    <key type="b" name="show-type-column">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-package-column">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-old-version-column">
+      <default>false</default>
+    </key>
+    <key type="b" name="show-new-version-column">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-size-column">
+      <default>false</default>
+    </key>
+    <key type="b" name="show-origin-column">
+      <default>false</default>
+    </key>
+    <key type="b" name="show-descriptions">
+      <default>true</default>
+    </key>
+    <key type="u" name="window-width">
+      <default>790</default>
+    </key>
+    <key type="u" name="window-height">
+      <default>570</default>
+    </key>
+    <key type="(ii)" name="window-position">
+      <default>(200,200)</default>
+    </key>
+    <key type="u" name="window-pane-position">
+      <default>344</default>
+    </key>
+    <key type="b" name="hide-kernel-update-warning">
+      <default>false</default>
+    </key>
+    <key type="b" name="allow-kernel-type-selection">
+      <default>false</default>
+      <summary>Allow the user to choose another kernel flavor in the kernel window</summary>
+    </key>
+    <key type="b" name="warn-about-distribution-eol">
+      <default>true</default>
+    </key>
+    <key type="s" name="selected-kernel-type">
+      <default>"-generic"</default>
+    </key>
+    <key type="b" name="automated-snapshots">
+      <default>false</default>
+      <summary>Enable automated system snapshots before updates</summary>
+    </key>
+    <key type="b" name="automated-snapshots-confirmation">
+      <default>false</default>
+      <summary>Ask for confirmation before an automated system snapshot</summary>
+    </key>
+    <key type="b" name="use-mainline-kernels">
+      <default>false</default>
+      <summary>Enable all mainline kernel related install and update functionality</summary>
+    </key>
+    <key type="b" name="mainline-include-rc">
+      <default>false</default>
+      <summary>Show release candidate mainline kernels in kernel window</summary>
+    </key>
+    <key type="b" name="mainline-include-longterm">
+      <default>false</default>
+      <summary>Show longterm series mainline kernels in kernel window</summary>
+    </key>
+    <key type="b" name="mainline-upgrade-eol-series">
+      <default>true</default>
+      <summary>Offer an upgrade for the latest released mainline series if the installed one is eol</summary>
+    </key>
+    <key type="s" name="release-upgrade-notified">
+      <default>""</default>
+      <summary>Codename of the point release the user confirmed the upgrade notification about</summary>
+    </key>
+    <key type="b" name="show-desktop-notifications">
+      <default>true</default>
+      <summary>Show desktop notifications</summary>
+    </key>
+    <key type="i" name="sort-column-id">
+      <default>8</default>
+      <summary>Update list sort column</summary>
+    </key>
+    <key type="i" name="sort-order">
+      <default>0</default>
+      <summary>Update list sort order</summary>
+    </key>
+    <key type="b" name="enable-notifier">
+      <default>false</default>
+      <summary>Enable notifier service for automatic update desktop notifications</summary>
+    </key>
+    <key type="x" name="notifier-reboot-required-notified">
+      <default>0</default>
+      <summary>Timestamp used by notifier</summary>
+    </key>
+    <key type="x" name="notifier-autoupdate-failure-notified">
+      <default>0</default>
+      <summary>Timestamp used by notifier</summary>
+    </key>
+    <key name="window-pane-default-tab" enum="com.linuxmint.updates.DefaultTab">
+      <default>'packages'</default>
+      <summary>The default tab the Update Details panel opens with</summary>
+    </key>
+    <key type="b" name="update-mintinstall-pkgcache">
+      <default>true</default>
+      <summary>Whether a remote refresh should also run mintinstall-update-pkgcache</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+DEB_VERSION := $(shell dpkg-parsechangelog | egrep '^Version:' | cut -f 2 -d ' ')
+
+%:
+	dh ${@}
+
+# Inject version number in the code
+override_dh_installdeb:
+	dh_installdeb
+	for pkg in $$(dh_listpackages -i); do \
+		find debian/$$pkg -type f -exec sed -i -e s/__DEB_VERSION__/${DEB_VERSION}/g {} +; \
+	done
+
+override_dh_installsystemd:
+	dh_installsystemd -pmintupdate --name=mintupdate-automation-cleanup --no-start -r
+	dh_installsystemd -pmintupdate --name=mintupdate-automation-autoremove --no-start -r mintupdate-automation-autoremove.service
+	dh_installsystemd -pmintupdate --name=mintupdate-automation-autoremove mintupdate-automation-autoremove.timer
+	dh_installsystemd -pmintupdate --name=mintupdate-automation-upgrade --no-enable --no-start
+
+override_dh_installsystemduser:
+	dh_installsystemduser -pmintupdate --name=mintupdate-automation-notifier --no-enable

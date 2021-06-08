@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for f in $(ls doc/man); do
+    gzip -c doc/man/${f} | sudo tee /usr/share/man/man${f: -1}/${f}.gz 1>/dev/null
+done
+sudo cp -R doc/help /usr/share

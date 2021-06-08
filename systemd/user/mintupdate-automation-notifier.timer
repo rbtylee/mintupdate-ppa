@@ -1,0 +1,9 @@
+[Unit]
+Description=Update Manager Automatic Updates Notifier
+
+[Timer]
+OnStartupSec=10s
+OnUnitActiveSec=15m
+
+[Install]
+WantedBy=timers.target

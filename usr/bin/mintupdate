@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+import argparse
+import subprocess
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(prog="mintupdate", description="Update Manager")
+    parser.add_argument("-v", "--version", action="version", version="__DEB_VERSION__")
+    subparsers = parser.add_subparsers(dest="subparser")
+    subparsers.add_parser("show", help="show the application window (default)")
+    subparsers.add_parser("hide", help="hide the application window")
+    subparsers.add_parser("show-kernels", help="show the Kernel Manager window")
+    subparsers.add_parser("show-history", help="show the History of Updates window")
+    subparsers.add_parser("show-preferences", help="show the Preferences window")
+    subparsers.add_parser("show-log", help="show the Log View window")
+    subparsers.add_parser("refresh", help="refresh the list of available updates")
+    subparsers.add_parser("restart", help="restart the application")
+    subparsers.add_parser("exit", help="exit the application")
+    args = parser.parse_args()
+    cmd = ["/usr/lib/linuxmint/mintUpdate/mintUpdate.py"]
+    if args.subparser:
+        cmd.append(args.subparser)
+    else:
+        cmd.append("show")
+    subprocess.Popen(cmd)

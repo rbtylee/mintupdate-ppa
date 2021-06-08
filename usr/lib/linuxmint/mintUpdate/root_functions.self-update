@@ -1,0 +1,4 @@
+#!/bin/sh
+# Silly workaround because Ubuntu's pkexec implementation does not support
+# org.freedesktop.policykit.exec.argv1 like the upstream version
+[ "$1" = "self-update" ] && /usr/lib/linuxmint/mintUpdate/root_functions.py "$@"

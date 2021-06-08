@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Manager automatic upgrades
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/linuxmint/mintUpdate/automatic_upgrades.py
+
+[Install]
+WantedBy=multi-user.target

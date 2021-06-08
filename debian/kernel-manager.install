@@ -1,0 +1,18 @@
+# code
+usr/bin/kernel-manager
+usr/lib/linuxmint/mintUpdate/kernel-manager.py
+usr/lib/linuxmint/mintUpdate/checkKernels.py
+usr/lib/linuxmint/mintUpdate/kernel/
+
+# resource files
+usr/share/linuxmint/mintupdate/kernels.ui
+usr/share/linuxmint/mintupdate/preferences.kernels.ui
+usr/share/linuxmint/mintupdate/vte.ui
+
+# launcher
+usr/share/applications/kernel-manager.desktop
+
+# icons
+usr/share/icons/hicolor/scalable/actions/mintupdate-locked-symbolic.svg
+usr/share/icons/hicolor/scalable/actions/mintupdate-unlocked-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/kernel-manager.svg

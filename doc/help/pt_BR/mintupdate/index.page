@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="index">
+
+  <info>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Gerenciador de Atualizações</title>
+
+  <p>O Gerenciador de Atualizações fornece ao sistema operacional as atualizações de software e segurança.</p>
+
+  <p>Atualizações são importantes porque eles mantém seu computador seguro, elimina erros e podem até adicionar novas características ao seu sistema operacional.</p>
+
+  <p>Infelizmente eles também algumas vezes introduzem novos problemas chamados 'regressão', que podem quebrar coisas as quais funcionavam bem antes.</p>
+
+  <p>Manter seu computador seguro e em boas condições de uso, é recomendado aplicar todas as atualizações disponíveis e configurar os snapshots do sistema, para que você possa restaurar seus sistema em caso de algo sair errado.</p>
+
+  <section id="concepts">
+    <title>Conceitos básicos</title>
+
+    <p>Esta  seção explora os conceitos básicos relacionados  a atualização de software.</p>
+  </section>
+
+  <section id="kernel">
+    <title>Atualizações de kernel</title>
+
+    <p>Esta seção explorar atualizações de kernel.</p>
+  </section>
+
+  <section id="advanced">
+    <title>Técnicas avançadas</title>
+
+    <p>Esta seção explora técnicas avançadas</p>
+  </section>
+</page>

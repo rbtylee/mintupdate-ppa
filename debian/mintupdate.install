@@ -1,0 +1,43 @@
+# code
+usr/bin/mintupdate
+usr/bin/mintupdate-cli
+usr/bin/mintupdate-launcher
+usr/lib/linuxmint/mintUpdate/automatic_upgrades.py
+usr/lib/linuxmint/mintUpdate/checkAPT.py
+usr/lib/linuxmint/mintUpdate/checkWarnings.py
+usr/lib/linuxmint/mintUpdate/main/
+usr/lib/linuxmint/mintUpdate/mintupdate-cli.py
+usr/lib/linuxmint/mintUpdate/mintUpdate.py
+usr/lib/linuxmint/mintUpdate/notifier.py
+usr/lib/linuxmint/mintUpdate/root_functions.self-update
+
+# resource files
+usr/share/linuxmint/mintupdate/automation/
+usr/share/linuxmint/mintupdate/history.ui
+usr/share/linuxmint/mintupdate/main.ui
+usr/share/linuxmint/mintupdate/preferences.ui
+usr/share/linuxmint/mintupdate/shortcuts.ui
+
+# launchers
+etc/xdg/autostart/mintupdate.desktop
+usr/share/applications/mintupdate-kde.desktop
+usr/share/applications/mintupdate.desktop
+
+# icons
+usr/share/icons/hicolor/16x16/
+usr/share/icons/hicolor/22x22/
+usr/share/icons/hicolor/24x24/
+usr/share/icons/hicolor/32x32/
+usr/share/icons/hicolor/48x48/
+usr/share/icons/hicolor/96x96/
+usr/share/icons/hicolor/scalable/actions/mintupdate-toolbar-edit-clear-symbolic.svg
+usr/share/icons/hicolor/scalable/actions/mintupdate-toolbar-edit-select-all-symbolic.svg
+usr/share/icons/hicolor/scalable/actions/mintupdate-toolbar-system-software-install-symbolic.svg
+usr/share/icons/hicolor/scalable/actions/mintupdate-toolbar-view-refresh-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate-type-3rd-party-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate-type-kernel-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate-type-package-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate-type-security-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate-type-unstable-symbolic.svg
+usr/share/icons/hicolor/scalable/apps/mintupdate.svg
+usr/share/icons/hicolor/scalable/status/

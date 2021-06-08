@@ -1,0 +1,7 @@
+{
+    "snapshot-options": ["/etc/mintupdate-system-snapshots.conf", "Automated system snapshot options"],
+    "upgrade": ["/etc/systemd/system/timers.target.wants/mintupdate-automation-upgrade.timer", "systemd"],
+    "upgrade-options": ["/etc/mintupdate-automatic-upgrades.conf", "Automatic updates options"],
+    "blacklist": ["/etc/mintupdate.blacklist", "Blacklist"],
+    "autoremove": ["/etc/systemd/system/timers.target.wants/mintupdate-automation-autoremove.timer", "systemd"]
+}

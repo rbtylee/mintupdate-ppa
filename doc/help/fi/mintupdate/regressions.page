@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="regressions">
+
+  <info>
+    <link type="guide" xref="index#concepts"/>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Silloin kun päivittäminen rikkoo jotakin, sitä kutsutaan "regressioksi".</desc>
+  </info>
+
+    <title>Ohjelmistojen regressiot</title>
+
+    <p>Päivitykset pitävät tietokoneesi turvallisena, tekevät virheenkorjauksia ja jopa saattavat joskus lisätä uusia ominaisuuksia käyttöjärjestelmääsi.</p>
+
+    <p>Ikävä kyllä ne saattavat myös joskus tuoda esiin uusia ongelmia, joita kutsutaan nimellä 'regressiot'.</p>
+
+    <p>Regressiot ovat hyvin yleisiä ohjelmisto-alalla. Niitä tapahtuu väistämättä ohjelmistokehityksessä. Koodin muutokset voivat aiheuttaa regressioita. Sillä ei ole merkitystä kuinka taitavia kehittäjät ovat, he eivät aina kykene ennustamaan kaikkia mahdollisia tilanteita, eivätkä tarkistamaan toimivuutta aivan kaiken tyyppisillä laitteistoilla.</p>
+
+    <p>Kun regressio tapahtuu, se se rikkoo jotain mikä ennen sitä toimi aivan hyvin.</p>
+
+    <p>Joskus se ei vaikuta juuri lainkaan, mutta joskus se vaikuttaakin paljon.</p>
+
+    <p>Se riippuu siitä, mihin käyttöjärjestelmän osaan se vaikuttaa ja voitko vai et kiertää tai korjata sen.</p>
+
+    <p>Esimerkiksi, PDF-lukijan tulostus ei toimi. No, se on ärsyttävää… mutta se ei ole lähellekään yhtä ongelmallista, kuin jos verkkoyhteys lopettaa toimintansa tai et voi yht'äkkiä käynnistää tietokonettasi tai kirjautua sisään.</p>
+
+    <p>Jälkimmäisessä tapauksessa, voi olla hyvin ongelmallista, jos et ole kokenut Linuxin parissa ja et tiedä kuinka etsiä vikaa.</p>
+</page>

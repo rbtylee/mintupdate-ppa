@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="mintupdate-cli">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Päivittäminen komentoriviltä</desc>
+  </info>
+
+  <title>Komennon mintupdate-cli käyttö</title>
+
+    <p>Päivitysten hallinta tarjoaa komentorivi työkalun, jota kutsutaan nimellä "mintupdate-cli".</p>
+
+    <p>Jos olet kokenut Linuxin parissa, voit käyttää tätä työkalua skripteissäsi tai cron–töissä automatisoidaksesi ohjelmistopäivitykset.</p>
+
+  <section id="tool1">
+
+  <title>Listataan päivityksiä</title>
+
+  <p>Voit käyttää "list" komentoa listataksesi päivitykset:</p>
+
+  <screen>mintupdate-cli list</screen>
+
+  <p>Voit käyttää -s argumenttia näyttääksesi vain tietoturvapäivitykset.</p>
+
+  <p>Voit käyttää -k argumenttia näyttääksesi vain ytimen päivitykset.</p>
+
+  <p>Esimerkiksi, seuraava komento listaa vain tietoturvapäivitykset:</p>
+
+  <screen>mintupdate-cli list -s</screen>
+
+  </section>
+
+  <section id="tool1">
+
+  <title>Toteutetaan päivityksiä</title>
+
+  <p>Voit käyttää "upgrade" komentoa toteuttaaksesi päivitykset käyttäen samoja asetuksia.</p>
+
+  <p>Esimerkiksi, seuraava komento toteuttaa ytimen päivitykset:</p>
+
+  <screen>sudo mintupdate-cli upgrade -r -k</screen>
+
+  <p>Huomaa -r valinta, joka lisättiin välimuistin virkistykseen.</p>
+
+  <p>Voit saada lisätietoja mintupdate-cli komennosta ja täyden listan argumenteista kirjoittamalla:</p>
+
+  <screen>mintupdate-cli -h</screen>
+
+  </section>
+
+</page>

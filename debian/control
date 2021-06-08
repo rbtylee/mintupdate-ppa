@@ -1,0 +1,100 @@
+Source: mintupdate
+Section: admin
+Priority: optional
+Maintainer: gm10 <gm10@quantentunnel.de>
+Homepage: https://launchpad.net/~gm10/+archive/ubuntu/linuxmint-tools
+Build-Depends:
+    debhelper (>= 12),
+    python3 (>= 3.6)
+Standards-Version: 4.1.4
+
+Package: mintupdate
+Architecture: all
+Depends:
+    ${misc:Depends},
+    lsb-release,
+    apt,
+    distro-info-data,
+    gir1.2-glib-2.0,
+    gir1.2-gtk-3.0,
+    gir1.2-notify-0.7,
+    gir1.2-vte-2.91,
+    python3 (>= 3.6),
+    python3-apt,
+    python3-dateutil,
+    python3-gi,
+    python3-psutil,
+    python3-pycurl,
+    python3-requests,
+    python3-setproctitle,
+    mint-common (>= 1:2.2.3~gm10),
+    mintupdate-common (= ${binary:Version}),
+    kernel-manager (= ${binary:Version}),
+    mint-release-upgrade,
+    systemd,
+    yelp
+Recommends:
+    gir1.2-appindicator3-0.1,
+    software-sources | software-properties-gtk,
+    timeshift
+Conflicts:
+    mintupdate-gnome,
+    mintupdate-kde,
+    mintupdate-xfce
+Replaces:
+    mintupdate-gnome,
+    mintupdate-kde,
+    mintupdate-xfce
+Description: Update and Kernel Manager
+ Advanced management of software and distribution updates and Linux kernels.
+ Integrates kernel-manager for kernel management and timeshift for automated
+ system snapshots before updates.
+ .
+ This package contains the Update Manager GUI and CLI applications.
+
+Package: mintupdate-common
+Architecture: all
+Depends:
+    ${misc:Depends},
+    distro-info-data,
+    gir1.2-glib-2.0,
+    gir1.2-gtk-3.0,
+    gir1.2-notify-0.7,
+    gir1.2-vte-2.91,
+    python3 (>= 3.6),
+    python3-gi,
+    python3-requests,
+    mint-common (>= 1:2.2.3~gm10)
+Replaces:
+    mintupdate (<< 1:6.0.0~gm10)
+Breaks:
+    mintupdate (<< 1:6.0.0~gm10)
+Description: Update and Kernel Manager
+ Advanced management of software and distribution updates and Linux kernels.
+ .
+ This package contains common components used by mintupdate and kernel-manager.
+
+Package: kernel-manager
+Architecture: all
+Depends:
+    ${misc:Depends},
+    gir1.2-glib-2.0,
+    gir1.2-gtk-3.0,
+    gir1.2-vte-2.91,
+    python3 (>= 3.6),
+    python3-apt,
+    python3-gi,
+    python3-psutil,
+    python3-setproctitle,
+    mint-common (>= 1:2.2.3~gm10),
+    mintupdate-common (= ${binary:Version}),
+    systemd,
+    yelp
+Replaces:
+    mintupdate (<< 1:6.0.0~gm10)
+Breaks:
+    mintupdate (<< 1:6.0.0~gm10)
+Description: Kernel Manager
+ Advanced graphical kernel management interface with support for Ubuntu's
+ versioned mainline kernel builds. Integrated into mintupdate but can be
+ installed and/or run stand-alone.

@@ -1,0 +1,9 @@
+[Unit]
+Description=Update Manager Automatic Updates Notifier
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/linuxmint/mintUpdate/notifier.py
+
+[Install]
+WantedBy=default.target

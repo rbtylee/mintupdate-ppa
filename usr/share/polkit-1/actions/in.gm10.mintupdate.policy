@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+  <vendor>gm10</vendor>
+  <vendor_url>https://launchpad.net/~gm10/+archive/ubuntu/linuxmint-tools</vendor_url>
+  <icon_name>mintupdate</icon_name>
+  <action id="in.gm10.mintupdate.root_functions">
+    <message>Update and Kernel Manager</message>
+    <message xml:lang="de">Aktualisierungs- und Systemkernverwaltung</message>
+    <message xml:lang="fr">Gestionnaire de mises à jour et de noyaux</message>
+    <message xml:lang="fr_CA">Gestionnaire de mises à jour et de noyaux</message>
+    <message xml:lang="hr">Nadopuni Upravitelja kernela</message>
+    <message xml:lang="nl">Bijwerk- en systeemkernbeheer</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+  <!-- WARNING: org.freedesktop.policykit.exec.argv1 has no effect in Ubuntu -->
+  <!-- <action id="in.gm10.mintupdate.self-update">
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">self-update</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action> -->
+
+  <!-- Workaround: -->
+  <action id="in.gm10.mintupdate.self-update">
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.self-update</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

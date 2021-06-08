@@ -1,0 +1,217 @@
+#!/usr/bin/python3
+import gettext
+import os
+import subprocess
+from glob import glob
+
+from mintcommon import additionalfiles
+
+DOMAIN = "mintupdate"
+
+CUR_DIR = os.getcwd()
+PATH = os.path.abspath("usr/share/locale")
+
+# Make MO files
+subprocess.run(["make", "buildmo"])
+
+os.environ['LANGUAGE'] = "en_US.UTF-8"
+gettext.install(DOMAIN, PATH)
+
+name = _("Update Manager")
+comment = _("Show and install available updates")
+
+# Autostart entry
+
+prefix = """[Desktop Entry]
+Version=1.0
+"""
+
+suffix = """Icon=mintupdate
+Exec=mintupdate hide
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Delay=20
+X-MATE-Autostart-Delay=20
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "etc/xdg/autostart/mintupdate.desktop",
+    prefix, name, comment, suffix)
+
+# Menu entry
+
+suffix = """Exec=mintupdate
+Icon=mintupdate
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+StartupNotify=false
+NotShowIn=KDE;
+StartupWMClass=MintUpdate.py
+Actions=show;hide;refresh;show-kernels;show-history;show-preferences;show-log;
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, comment, suffix)
+
+prefix = "\n[Desktop Action show]\n"
+suffix = "Exec=mintupdate show\n"
+name = _("Show")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action hide]\n"
+suffix = "Exec=mintupdate hide\n"
+name = _("Hide")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action refresh]\n"
+suffix = "Exec=mintupdate refresh\n"
+name = _("Refresh")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action show-kernels]\n"
+suffix = "Exec=mintupdate show-kernels\n"
+name = _("Kernel Manager")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action show-history]\n"
+suffix = "Exec=mintupdate show-history\n"
+name = _("History of Updates")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action show-preferences]\n"
+suffix = "Exec=mintupdate show-preferences\n"
+name = _("Preferences")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+prefix = "\n[Desktop Action show-log]\n"
+suffix = "Exec=mintupdate show-log\n"
+name = _("Log View")
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate.desktop",
+    prefix, name, None, suffix, append=True)
+
+# Menu entry (KDE)
+
+name = _("Update Manager")
+
+prefix = """[Desktop Entry]
+Version=1.0
+"""
+
+suffix = """Exec=mintupdate
+Icon=mintupdate
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=System;
+StartupNotify=false
+OnlyShowIn=KDE;
+StartupWMClass=MintUpdate.py
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/mintupdate-kde.desktop",
+    prefix, name, comment, suffix, genericName=comment)
+
+# Menu entry (Kernel Manager)
+
+name = _("Kernel Manager")
+comment = _("Install and remove kernels")
+
+suffix = """Exec=kernel-manager
+Icon=kernel-manager
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+StartupNotify=false
+StartupWMClass=Kernel-manager.py
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/kernel-manager.desktop",
+    prefix, name, comment, suffix)
+
+# Policy
+
+name = _("Update and Kernel Manager")
+
+prefix = """<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+  <vendor>gm10</vendor>
+  <vendor_url>https://launchpad.net/~gm10/+archive/ubuntu/linuxmint-tools</vendor_url>
+  <icon_name>mintupdate</icon_name>
+  <action id="in.gm10.mintupdate.root_functions">
+"""
+suffix = """    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+  <!-- WARNING: org.freedesktop.policykit.exec.argv1 has no effect in Ubuntu -->
+  <!-- <action id="in.gm10.mintupdate.self-update">
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">self-update</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action> -->
+
+  <!-- Workaround: -->
+  <action id="in.gm10.mintupdate.self-update">
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/linuxmint/mintUpdate/root_functions.self-update</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>
+"""
+
+additionalfiles.generate_polkit_policy(DOMAIN, PATH, "usr/share/polkit-1/actions/in.gm10.mintupdate.policy",
+    prefix, name, suffix)
+
+# Clean mo files
+subprocess.run(["make", "clean"])
+
+locales = []
+
+os.chdir("po/")
+files = glob("*.po")
+for filename in files:
+    locale = os.path.splitext(filename)[0].split("-", 1)[1]
+    locales.append(locale)
+os.chdir(CUR_DIR)
+
+for locale in sorted(locales):
+    if locale == "mus":
+        continue
+    print(f"generating help files for locale: {locale}")
+    os.system(f"mkdir -p doc/help/{locale}/mintupdate/")
+    for page in ["index", "kernels", "mintupdate-cli", "snapshots", "regressions", "updates"]:
+        os.system(f"xml2po -p po/mintupdate-{locale}.po -o doc/help/{locale}/mintupdate/{page}.page doc/help/C/mintupdate/{page}.page")
+    os.system(f"cp doc/help/C/mintupdate/legal.xml doc/help/{locale}/mintupdate/")
